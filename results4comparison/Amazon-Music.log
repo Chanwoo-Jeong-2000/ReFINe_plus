@@ -1,0 +1,1758 @@
+#############################################################################
+ramdom_seed: 2024
+gpu_id: 2
+dataset: Amazon_Digital_Music
+dataset_augment: augment
+batch_size: 1024
+test_batch_size: 8192
+embedding_dim: 64
+layers: 4
+learning_rate: 0.001
+evaluation_step: 1
+early_stopping_step: 50
+top_k: [5, 10, 15, 20]
+epochs: 1000
+real_negative_sampling_probabilities: 1.5
+path_name: nothing
+#############################################################################
+
+#############################################################################
+data loading...
+train set: train_augment
+user: 3091,  item: 2126
+train interations: 33281
+valid interations: 1972
+test interations: 6321
+done!
+#############################################################################
+
+Epoch: 001, Loss: 6.1136
+Precision@5:  0.0119, Recall@5:  0.0343, NDCG@5:  0.0235
+Precision@10: 0.0105, Recall@10: 0.0628, NDCG@10: 0.0333
+Precision@15: 0.0102, Recall@15: 0.0912, NDCG@15: 0.0415
+Precision@20: 0.0093, Recall@20: 0.1110, NDCG@20: 0.0467
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 002, Loss: 5.3878
+Precision@5:  0.0105, Recall@5:  0.0309, NDCG@5:  0.0215
+Precision@10: 0.0100, Recall@10: 0.0611, NDCG@10: 0.0318
+Precision@15: 0.0103, Recall@15: 0.0912, NDCG@15: 0.0409
+Precision@20: 0.0098, Recall@20: 0.1160, NDCG@20: 0.0474
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 003, Loss: 5.2203
+Precision@5:  0.0113, Recall@5:  0.0333, NDCG@5:  0.0226
+Precision@10: 0.0096, Recall@10: 0.0583, NDCG@10: 0.0312
+Precision@15: 0.0108, Recall@15: 0.0966, NDCG@15: 0.0425
+Precision@20: 0.0099, Recall@20: 0.1167, NDCG@20: 0.0479
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 004, Loss: 5.0304
+Precision@5:  0.0119, Recall@5:  0.0348, NDCG@5:  0.0231
+Precision@10: 0.0104, Recall@10: 0.0615, NDCG@10: 0.0323
+Precision@15: 0.0110, Recall@15: 0.0996, NDCG@15: 0.0433
+Precision@20: 0.0100, Recall@20: 0.1161, NDCG@20: 0.0479
+EarlyStopping counter: 1 out of 50
+
+Epoch: 005, Loss: 4.8711
+Precision@5:  0.0123, Recall@5:  0.0359, NDCG@5:  0.0243
+Precision@10: 0.0116, Recall@10: 0.0716, NDCG@10: 0.0363
+Precision@15: 0.0112, Recall@15: 0.1014, NDCG@15: 0.0451
+Precision@20: 0.0103, Recall@20: 0.1206, NDCG@20: 0.0503
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 006, Loss: 4.7515
+Precision@5:  0.0119, Recall@5:  0.0349, NDCG@5:  0.0235
+Precision@10: 0.0126, Recall@10: 0.0763, NDCG@10: 0.0378
+Precision@15: 0.0115, Recall@15: 0.1021, NDCG@15: 0.0454
+Precision@20: 0.0107, Recall@20: 0.1266, NDCG@20: 0.0519
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 007, Loss: 4.6831
+Precision@5:  0.0125, Recall@5:  0.0363, NDCG@5:  0.0245
+Precision@10: 0.0128, Recall@10: 0.0766, NDCG@10: 0.0384
+Precision@15: 0.0123, Recall@15: 0.1139, NDCG@15: 0.0490
+Precision@20: 0.0110, Recall@20: 0.1299, NDCG@20: 0.0536
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 008, Loss: 4.5919
+Precision@5:  0.0132, Recall@5:  0.0388, NDCG@5:  0.0254
+Precision@10: 0.0134, Recall@10: 0.0815, NDCG@10: 0.0399
+Precision@15: 0.0125, Recall@15: 0.1153, NDCG@15: 0.0496
+Precision@20: 0.0111, Recall@20: 0.1332, NDCG@20: 0.0545
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 009, Loss: 4.5575
+Precision@5:  0.0136, Recall@5:  0.0413, NDCG@5:  0.0270
+Precision@10: 0.0139, Recall@10: 0.0852, NDCG@10: 0.0419
+Precision@15: 0.0126, Recall@15: 0.1150, NDCG@15: 0.0506
+Precision@20: 0.0114, Recall@20: 0.1361, NDCG@20: 0.0563
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 010, Loss: 4.5105
+Precision@5:  0.0155, Recall@5:  0.0469, NDCG@5:  0.0295
+Precision@10: 0.0142, Recall@10: 0.0861, NDCG@10: 0.0430
+Precision@15: 0.0133, Recall@15: 0.1214, NDCG@15: 0.0531
+Precision@20: 0.0122, Recall@20: 0.1466, NDCG@20: 0.0597
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 011, Loss: 4.4662
+Precision@5:  0.0161, Recall@5:  0.0492, NDCG@5:  0.0321
+Precision@10: 0.0148, Recall@10: 0.0916, NDCG@10: 0.0466
+Precision@15: 0.0135, Recall@15: 0.1233, NDCG@15: 0.0559
+Precision@20: 0.0128, Recall@20: 0.1544, NDCG@20: 0.0641
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 012, Loss: 4.4166
+Precision@5:  0.0167, Recall@5:  0.0495, NDCG@5:  0.0325
+Precision@10: 0.0163, Recall@10: 0.1028, NDCG@10: 0.0502
+Precision@15: 0.0140, Recall@15: 0.1291, NDCG@15: 0.0580
+Precision@20: 0.0130, Recall@20: 0.1561, NDCG@20: 0.0652
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 013, Loss: 4.3853
+Precision@5:  0.0201, Recall@5:  0.0601, NDCG@5:  0.0381
+Precision@10: 0.0164, Recall@10: 0.1021, NDCG@10: 0.0517
+Precision@15: 0.0148, Recall@15: 0.1349, NDCG@15: 0.0613
+Precision@20: 0.0139, Recall@20: 0.1678, NDCG@20: 0.0699
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 014, Loss: 4.3446
+Precision@5:  0.0209, Recall@5:  0.0646, NDCG@5:  0.0417
+Precision@10: 0.0164, Recall@10: 0.1033, NDCG@10: 0.0544
+Precision@15: 0.0155, Recall@15: 0.1426, NDCG@15: 0.0659
+Precision@20: 0.0140, Recall@20: 0.1691, NDCG@20: 0.0730
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 015, Loss: 4.3104
+Precision@5:  0.0211, Recall@5:  0.0672, NDCG@5:  0.0437
+Precision@10: 0.0170, Recall@10: 0.1086, NDCG@10: 0.0575
+Precision@15: 0.0160, Recall@15: 0.1473, NDCG@15: 0.0688
+Precision@20: 0.0145, Recall@20: 0.1726, NDCG@20: 0.0757
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 016, Loss: 4.2850
+Precision@5:  0.0203, Recall@5:  0.0663, NDCG@5:  0.0439
+Precision@10: 0.0177, Recall@10: 0.1110, NDCG@10: 0.0595
+Precision@15: 0.0162, Recall@15: 0.1462, NDCG@15: 0.0700
+Precision@20: 0.0145, Recall@20: 0.1768, NDCG@20: 0.0778
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 017, Loss: 4.2374
+Precision@5:  0.0213, Recall@5:  0.0695, NDCG@5:  0.0462
+Precision@10: 0.0187, Recall@10: 0.1175, NDCG@10: 0.0628
+Precision@15: 0.0163, Recall@15: 0.1472, NDCG@15: 0.0717
+Precision@20: 0.0149, Recall@20: 0.1790, NDCG@20: 0.0800
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 018, Loss: 4.2240
+Precision@5:  0.0218, Recall@5:  0.0713, NDCG@5:  0.0480
+Precision@10: 0.0187, Recall@10: 0.1155, NDCG@10: 0.0634
+Precision@15: 0.0167, Recall@15: 0.1528, NDCG@15: 0.0743
+Precision@20: 0.0152, Recall@20: 0.1829, NDCG@20: 0.0823
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 019, Loss: 4.1724
+Precision@5:  0.0220, Recall@5:  0.0718, NDCG@5:  0.0489
+Precision@10: 0.0191, Recall@10: 0.1165, NDCG@10: 0.0645
+Precision@15: 0.0169, Recall@15: 0.1540, NDCG@15: 0.0755
+Precision@20: 0.0153, Recall@20: 0.1847, NDCG@20: 0.0835
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 020, Loss: 4.1728
+Precision@5:  0.0220, Recall@5:  0.0714, NDCG@5:  0.0492
+Precision@10: 0.0192, Recall@10: 0.1176, NDCG@10: 0.0654
+Precision@15: 0.0170, Recall@15: 0.1540, NDCG@15: 0.0762
+Precision@20: 0.0158, Recall@20: 0.1876, NDCG@20: 0.0851
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 021, Loss: 4.1328
+Precision@5:  0.0222, Recall@5:  0.0739, NDCG@5:  0.0501
+Precision@10: 0.0198, Recall@10: 0.1207, NDCG@10: 0.0668
+Precision@15: 0.0174, Recall@15: 0.1583, NDCG@15: 0.0777
+Precision@20: 0.0161, Recall@20: 0.1894, NDCG@20: 0.0861
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 022, Loss: 4.1250
+Precision@5:  0.0234, Recall@5:  0.0764, NDCG@5:  0.0508
+Precision@10: 0.0204, Recall@10: 0.1247, NDCG@10: 0.0678
+Precision@15: 0.0179, Recall@15: 0.1619, NDCG@15: 0.0787
+Precision@20: 0.0162, Recall@20: 0.1894, NDCG@20: 0.0862
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 023, Loss: 4.0877
+Precision@5:  0.0236, Recall@5:  0.0788, NDCG@5:  0.0516
+Precision@10: 0.0207, Recall@10: 0.1264, NDCG@10: 0.0685
+Precision@15: 0.0179, Recall@15: 0.1621, NDCG@15: 0.0788
+Precision@20: 0.0163, Recall@20: 0.1900, NDCG@20: 0.0865
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 024, Loss: 4.0720
+Precision@5:  0.0238, Recall@5:  0.0782, NDCG@5:  0.0522
+Precision@10: 0.0210, Recall@10: 0.1281, NDCG@10: 0.0698
+Precision@15: 0.0183, Recall@15: 0.1637, NDCG@15: 0.0803
+Precision@20: 0.0164, Recall@20: 0.1922, NDCG@20: 0.0880
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 025, Loss: 4.0520
+Precision@5:  0.0257, Recall@5:  0.0823, NDCG@5:  0.0550
+Precision@10: 0.0211, Recall@10: 0.1263, NDCG@10: 0.0704
+Precision@15: 0.0183, Recall@15: 0.1621, NDCG@15: 0.0810
+Precision@20: 0.0164, Recall@20: 0.1936, NDCG@20: 0.0893
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 026, Loss: 4.0197
+Precision@5:  0.0255, Recall@5:  0.0795, NDCG@5:  0.0542
+Precision@10: 0.0214, Recall@10: 0.1301, NDCG@10: 0.0714
+Precision@15: 0.0187, Recall@15: 0.1676, NDCG@15: 0.0825
+Precision@20: 0.0166, Recall@20: 0.1962, NDCG@20: 0.0899
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 027, Loss: 4.0054
+Precision@5:  0.0266, Recall@5:  0.0827, NDCG@5:  0.0571
+Precision@10: 0.0217, Recall@10: 0.1323, NDCG@10: 0.0738
+Precision@15: 0.0189, Recall@15: 0.1696, NDCG@15: 0.0847
+Precision@20: 0.0167, Recall@20: 0.1991, NDCG@20: 0.0923
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 028, Loss: 3.9872
+Precision@5:  0.0261, Recall@5:  0.0823, NDCG@5:  0.0575
+Precision@10: 0.0220, Recall@10: 0.1331, NDCG@10: 0.0751
+Precision@15: 0.0194, Recall@15: 0.1730, NDCG@15: 0.0867
+Precision@20: 0.0168, Recall@20: 0.1986, NDCG@20: 0.0934
+EarlyStopping counter: 1 out of 50
+
+Epoch: 029, Loss: 3.9847
+Precision@5:  0.0268, Recall@5:  0.0849, NDCG@5:  0.0590
+Precision@10: 0.0217, Recall@10: 0.1316, NDCG@10: 0.0752
+Precision@15: 0.0192, Recall@15: 0.1721, NDCG@15: 0.0870
+Precision@20: 0.0169, Recall@20: 0.2021, NDCG@20: 0.0948
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 030, Loss: 3.9541
+Precision@5:  0.0282, Recall@5:  0.0888, NDCG@5:  0.0607
+Precision@10: 0.0222, Recall@10: 0.1338, NDCG@10: 0.0761
+Precision@15: 0.0194, Recall@15: 0.1780, NDCG@15: 0.0886
+Precision@20: 0.0170, Recall@20: 0.2024, NDCG@20: 0.0952
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 031, Loss: 3.9587
+Precision@5:  0.0287, Recall@5:  0.0906, NDCG@5:  0.0616
+Precision@10: 0.0227, Recall@10: 0.1384, NDCG@10: 0.0778
+Precision@15: 0.0199, Recall@15: 0.1803, NDCG@15: 0.0899
+Precision@20: 0.0173, Recall@20: 0.2059, NDCG@20: 0.0966
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 032, Loss: 3.8994
+Precision@5:  0.0284, Recall@5:  0.0897, NDCG@5:  0.0624
+Precision@10: 0.0221, Recall@10: 0.1345, NDCG@10: 0.0779
+Precision@15: 0.0197, Recall@15: 0.1805, NDCG@15: 0.0911
+Precision@20: 0.0174, Recall@20: 0.2099, NDCG@20: 0.0987
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 033, Loss: 3.9273
+Precision@5:  0.0285, Recall@5:  0.0895, NDCG@5:  0.0625
+Precision@10: 0.0224, Recall@10: 0.1363, NDCG@10: 0.0784
+Precision@15: 0.0199, Recall@15: 0.1816, NDCG@15: 0.0914
+Precision@20: 0.0176, Recall@20: 0.2122, NDCG@20: 0.0994
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 034, Loss: 3.8638
+Precision@5:  0.0289, Recall@5:  0.0911, NDCG@5:  0.0625
+Precision@10: 0.0225, Recall@10: 0.1384, NDCG@10: 0.0786
+Precision@15: 0.0199, Recall@15: 0.1829, NDCG@15: 0.0913
+Precision@20: 0.0178, Recall@20: 0.2165, NDCG@20: 0.1001
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 035, Loss: 3.8659
+Precision@5:  0.0291, Recall@5:  0.0914, NDCG@5:  0.0627
+Precision@10: 0.0235, Recall@10: 0.1450, NDCG@10: 0.0807
+Precision@15: 0.0201, Recall@15: 0.1852, NDCG@15: 0.0922
+Precision@20: 0.0178, Recall@20: 0.2164, NDCG@20: 0.1004
+EarlyStopping counter: 1 out of 50
+
+Epoch: 036, Loss: 3.8467
+Precision@5:  0.0293, Recall@5:  0.0912, NDCG@5:  0.0628
+Precision@10: 0.0235, Recall@10: 0.1461, NDCG@10: 0.0811
+Precision@15: 0.0206, Recall@15: 0.1909, NDCG@15: 0.0938
+Precision@20: 0.0179, Recall@20: 0.2144, NDCG@20: 0.1002
+EarlyStopping counter: 2 out of 50
+
+Epoch: 037, Loss: 3.8304
+Precision@5:  0.0305, Recall@5:  0.0953, NDCG@5:  0.0654
+Precision@10: 0.0231, Recall@10: 0.1433, NDCG@10: 0.0812
+Precision@15: 0.0206, Recall@15: 0.1912, NDCG@15: 0.0949
+Precision@20: 0.0182, Recall@20: 0.2189, NDCG@20: 0.1023
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 038, Loss: 3.8283
+Precision@5:  0.0299, Recall@5:  0.0940, NDCG@5:  0.0647
+Precision@10: 0.0231, Recall@10: 0.1428, NDCG@10: 0.0810
+Precision@15: 0.0208, Recall@15: 0.1937, NDCG@15: 0.0955
+Precision@20: 0.0183, Recall@20: 0.2205, NDCG@20: 0.1028
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 039, Loss: 3.8070
+Precision@5:  0.0295, Recall@5:  0.0926, NDCG@5:  0.0650
+Precision@10: 0.0234, Recall@10: 0.1430, NDCG@10: 0.0820
+Precision@15: 0.0209, Recall@15: 0.1939, NDCG@15: 0.0965
+Precision@20: 0.0185, Recall@20: 0.2226, NDCG@20: 0.1042
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 040, Loss: 3.7858
+Precision@5:  0.0303, Recall@5:  0.0957, NDCG@5:  0.0667
+Precision@10: 0.0231, Recall@10: 0.1432, NDCG@10: 0.0825
+Precision@15: 0.0209, Recall@15: 0.1939, NDCG@15: 0.0971
+Precision@20: 0.0186, Recall@20: 0.2257, NDCG@20: 0.1055
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 041, Loss: 3.7737
+Precision@5:  0.0299, Recall@5:  0.0950, NDCG@5:  0.0662
+Precision@10: 0.0235, Recall@10: 0.1462, NDCG@10: 0.0832
+Precision@15: 0.0210, Recall@15: 0.1954, NDCG@15: 0.0974
+Precision@20: 0.0188, Recall@20: 0.2269, NDCG@20: 0.1059
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 042, Loss: 3.7703
+Precision@5:  0.0303, Recall@5:  0.0957, NDCG@5:  0.0676
+Precision@10: 0.0235, Recall@10: 0.1466, NDCG@10: 0.0845
+Precision@15: 0.0211, Recall@15: 0.1966, NDCG@15: 0.0989
+Precision@20: 0.0188, Recall@20: 0.2278, NDCG@20: 0.1072
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 043, Loss: 3.7495
+Precision@5:  0.0307, Recall@5:  0.0976, NDCG@5:  0.0686
+Precision@10: 0.0233, Recall@10: 0.1457, NDCG@10: 0.0847
+Precision@15: 0.0213, Recall@15: 0.1967, NDCG@15: 0.0996
+Precision@20: 0.0191, Recall@20: 0.2278, NDCG@20: 0.1080
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 044, Loss: 3.7409
+Precision@5:  0.0307, Recall@5:  0.0971, NDCG@5:  0.0688
+Precision@10: 0.0239, Recall@10: 0.1490, NDCG@10: 0.0862
+Precision@15: 0.0215, Recall@15: 0.1975, NDCG@15: 0.1004
+Precision@20: 0.0192, Recall@20: 0.2279, NDCG@20: 0.1086
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 045, Loss: 3.7287
+Precision@5:  0.0310, Recall@5:  0.0984, NDCG@5:  0.0704
+Precision@10: 0.0247, Recall@10: 0.1538, NDCG@10: 0.0889
+Precision@15: 0.0216, Recall@15: 0.1986, NDCG@15: 0.1019
+Precision@20: 0.0196, Recall@20: 0.2343, NDCG@20: 0.1115
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 046, Loss: 3.7135
+Precision@5:  0.0310, Recall@5:  0.0974, NDCG@5:  0.0701
+Precision@10: 0.0253, Recall@10: 0.1567, NDCG@10: 0.0900
+Precision@15: 0.0218, Recall@15: 0.1999, NDCG@15: 0.1025
+Precision@20: 0.0198, Recall@20: 0.2360, NDCG@20: 0.1122
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 047, Loss: 3.7067
+Precision@5:  0.0310, Recall@5:  0.0978, NDCG@5:  0.0701
+Precision@10: 0.0257, Recall@10: 0.1593, NDCG@10: 0.0908
+Precision@15: 0.0220, Recall@15: 0.2017, NDCG@15: 0.1031
+Precision@20: 0.0200, Recall@20: 0.2383, NDCG@20: 0.1129
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 048, Loss: 3.7076
+Precision@5:  0.0318, Recall@5:  0.1001, NDCG@5:  0.0712
+Precision@10: 0.0256, Recall@10: 0.1582, NDCG@10: 0.0908
+Precision@15: 0.0223, Recall@15: 0.2021, NDCG@15: 0.1036
+Precision@20: 0.0201, Recall@20: 0.2412, NDCG@20: 0.1138
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 049, Loss: 3.6778
+Precision@5:  0.0326, Recall@5:  0.1035, NDCG@5:  0.0728
+Precision@10: 0.0258, Recall@10: 0.1600, NDCG@10: 0.0917
+Precision@15: 0.0224, Recall@15: 0.2026, NDCG@15: 0.1042
+Precision@20: 0.0202, Recall@20: 0.2446, NDCG@20: 0.1150
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 050, Loss: 3.6374
+Precision@5:  0.0320, Recall@5:  0.1009, NDCG@5:  0.0714
+Precision@10: 0.0255, Recall@10: 0.1603, NDCG@10: 0.0912
+Precision@15: 0.0225, Recall@15: 0.2036, NDCG@15: 0.1042
+Precision@20: 0.0203, Recall@20: 0.2442, NDCG@20: 0.1146
+EarlyStopping counter: 1 out of 50
+
+Epoch: 051, Loss: 3.6350
+Precision@5:  0.0322, Recall@5:  0.1000, NDCG@5:  0.0702
+Precision@10: 0.0256, Recall@10: 0.1595, NDCG@10: 0.0901
+Precision@15: 0.0225, Recall@15: 0.2042, NDCG@15: 0.1033
+Precision@20: 0.0205, Recall@20: 0.2472, NDCG@20: 0.1145
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 052, Loss: 3.6374
+Precision@5:  0.0330, Recall@5:  0.1021, NDCG@5:  0.0725
+Precision@10: 0.0258, Recall@10: 0.1613, NDCG@10: 0.0922
+Precision@15: 0.0229, Recall@15: 0.2080, NDCG@15: 0.1060
+Precision@20: 0.0205, Recall@20: 0.2482, NDCG@20: 0.1164
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 053, Loss: 3.6269
+Precision@5:  0.0328, Recall@5:  0.1012, NDCG@5:  0.0724
+Precision@10: 0.0261, Recall@10: 0.1618, NDCG@10: 0.0928
+Precision@15: 0.0230, Recall@15: 0.2091, NDCG@15: 0.1067
+Precision@20: 0.0208, Recall@20: 0.2520, NDCG@20: 0.1179
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 054, Loss: 3.6106
+Precision@5:  0.0333, Recall@5:  0.1041, NDCG@5:  0.0736
+Precision@10: 0.0263, Recall@10: 0.1626, NDCG@10: 0.0933
+Precision@15: 0.0231, Recall@15: 0.2111, NDCG@15: 0.1074
+Precision@20: 0.0210, Recall@20: 0.2522, NDCG@20: 0.1183
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 055, Loss: 3.5784
+Precision@5:  0.0341, Recall@5:  0.1061, NDCG@5:  0.0745
+Precision@10: 0.0262, Recall@10: 0.1610, NDCG@10: 0.0930
+Precision@15: 0.0233, Recall@15: 0.2133, NDCG@15: 0.1082
+Precision@20: 0.0209, Recall@20: 0.2540, NDCG@20: 0.1189
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 056, Loss: 3.5708
+Precision@5:  0.0347, Recall@5:  0.1104, NDCG@5:  0.0769
+Precision@10: 0.0266, Recall@10: 0.1656, NDCG@10: 0.0953
+Precision@15: 0.0236, Recall@15: 0.2175, NDCG@15: 0.1104
+Precision@20: 0.0209, Recall@20: 0.2532, NDCG@20: 0.1200
+EarlyStopping counter: 1 out of 50
+
+Epoch: 057, Loss: 3.5789
+Precision@5:  0.0345, Recall@5:  0.1090, NDCG@5:  0.0765
+Precision@10: 0.0272, Recall@10: 0.1693, NDCG@10: 0.0967
+Precision@15: 0.0238, Recall@15: 0.2192, NDCG@15: 0.1112
+Precision@20: 0.0211, Recall@20: 0.2559, NDCG@20: 0.1209
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 058, Loss: 3.5543
+Precision@5:  0.0347, Recall@5:  0.1098, NDCG@5:  0.0777
+Precision@10: 0.0276, Recall@10: 0.1726, NDCG@10: 0.0987
+Precision@15: 0.0236, Recall@15: 0.2178, NDCG@15: 0.1118
+Precision@20: 0.0212, Recall@20: 0.2559, NDCG@20: 0.1220
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 059, Loss: 3.5343
+Precision@5:  0.0349, Recall@5:  0.1106, NDCG@5:  0.0787
+Precision@10: 0.0280, Recall@10: 0.1744, NDCG@10: 0.1001
+Precision@15: 0.0237, Recall@15: 0.2190, NDCG@15: 0.1130
+Precision@20: 0.0212, Recall@20: 0.2551, NDCG@20: 0.1228
+EarlyStopping counter: 1 out of 50
+
+Epoch: 060, Loss: 3.5342
+Precision@5:  0.0358, Recall@5:  0.1133, NDCG@5:  0.0804
+Precision@10: 0.0283, Recall@10: 0.1738, NDCG@10: 0.1009
+Precision@15: 0.0240, Recall@15: 0.2208, NDCG@15: 0.1144
+Precision@20: 0.0213, Recall@20: 0.2559, NDCG@20: 0.1238
+EarlyStopping counter: 2 out of 50
+
+Epoch: 061, Loss: 3.5294
+Precision@5:  0.0358, Recall@5:  0.1142, NDCG@5:  0.0815
+Precision@10: 0.0287, Recall@10: 0.1765, NDCG@10: 0.1029
+Precision@15: 0.0244, Recall@15: 0.2237, NDCG@15: 0.1165
+Precision@20: 0.0215, Recall@20: 0.2596, NDCG@20: 0.1259
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 062, Loss: 3.4876
+Precision@5:  0.0351, Recall@5:  0.1106, NDCG@5:  0.0805
+Precision@10: 0.0290, Recall@10: 0.1778, NDCG@10: 0.1037
+Precision@15: 0.0243, Recall@15: 0.2217, NDCG@15: 0.1164
+Precision@20: 0.0214, Recall@20: 0.2592, NDCG@20: 0.1262
+EarlyStopping counter: 1 out of 50
+
+Epoch: 063, Loss: 3.4636
+Precision@5:  0.0362, Recall@5:  0.1152, NDCG@5:  0.0821
+Precision@10: 0.0289, Recall@10: 0.1780, NDCG@10: 0.1036
+Precision@15: 0.0244, Recall@15: 0.2221, NDCG@15: 0.1165
+Precision@20: 0.0217, Recall@20: 0.2638, NDCG@20: 0.1273
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 064, Loss: 3.4845
+Precision@5:  0.0362, Recall@5:  0.1160, NDCG@5:  0.0830
+Precision@10: 0.0290, Recall@10: 0.1793, NDCG@10: 0.1046
+Precision@15: 0.0245, Recall@15: 0.2235, NDCG@15: 0.1174
+Precision@20: 0.0218, Recall@20: 0.2646, NDCG@20: 0.1281
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 065, Loss: 3.4556
+Precision@5:  0.0366, Recall@5:  0.1173, NDCG@5:  0.0828
+Precision@10: 0.0293, Recall@10: 0.1808, NDCG@10: 0.1044
+Precision@15: 0.0246, Recall@15: 0.2248, NDCG@15: 0.1173
+Precision@20: 0.0220, Recall@20: 0.2663, NDCG@20: 0.1281
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 066, Loss: 3.4312
+Precision@5:  0.0354, Recall@5:  0.1135, NDCG@5:  0.0812
+Precision@10: 0.0296, Recall@10: 0.1829, NDCG@10: 0.1050
+Precision@15: 0.0249, Recall@15: 0.2264, NDCG@15: 0.1177
+Precision@20: 0.0221, Recall@20: 0.2672, NDCG@20: 0.1284
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 067, Loss: 3.4320
+Precision@5:  0.0360, Recall@5:  0.1144, NDCG@5:  0.0825
+Precision@10: 0.0296, Recall@10: 0.1851, NDCG@10: 0.1065
+Precision@15: 0.0250, Recall@15: 0.2275, NDCG@15: 0.1191
+Precision@20: 0.0223, Recall@20: 0.2691, NDCG@20: 0.1299
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 068, Loss: 3.4274
+Precision@5:  0.0366, Recall@5:  0.1167, NDCG@5:  0.0852
+Precision@10: 0.0294, Recall@10: 0.1841, NDCG@10: 0.1080
+Precision@15: 0.0251, Recall@15: 0.2261, NDCG@15: 0.1207
+Precision@20: 0.0222, Recall@20: 0.2689, NDCG@20: 0.1317
+EarlyStopping counter: 1 out of 50
+
+Epoch: 069, Loss: 3.3757
+Precision@5:  0.0372, Recall@5:  0.1180, NDCG@5:  0.0840
+Precision@10: 0.0298, Recall@10: 0.1864, NDCG@10: 0.1071
+Precision@15: 0.0253, Recall@15: 0.2289, NDCG@15: 0.1198
+Precision@20: 0.0225, Recall@20: 0.2727, NDCG@20: 0.1311
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 070, Loss: 3.4116
+Precision@5:  0.0375, Recall@5:  0.1191, NDCG@5:  0.0852
+Precision@10: 0.0300, Recall@10: 0.1875, NDCG@10: 0.1084
+Precision@15: 0.0254, Recall@15: 0.2310, NDCG@15: 0.1212
+Precision@20: 0.0225, Recall@20: 0.2732, NDCG@20: 0.1322
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 071, Loss: 3.3882
+Precision@5:  0.0383, Recall@5:  0.1213, NDCG@5:  0.0869
+Precision@10: 0.0300, Recall@10: 0.1875, NDCG@10: 0.1091
+Precision@15: 0.0256, Recall@15: 0.2335, NDCG@15: 0.1227
+Precision@20: 0.0226, Recall@20: 0.2753, NDCG@20: 0.1336
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 072, Loss: 3.3618
+Precision@5:  0.0374, Recall@5:  0.1179, NDCG@5:  0.0854
+Precision@10: 0.0303, Recall@10: 0.1901, NDCG@10: 0.1097
+Precision@15: 0.0257, Recall@15: 0.2335, NDCG@15: 0.1226
+Precision@20: 0.0226, Recall@20: 0.2738, NDCG@20: 0.1331
+EarlyStopping counter: 1 out of 50
+
+Epoch: 073, Loss: 3.3734
+Precision@5:  0.0370, Recall@5:  0.1194, NDCG@5:  0.0858
+Precision@10: 0.0307, Recall@10: 0.1910, NDCG@10: 0.1103
+Precision@15: 0.0257, Recall@15: 0.2340, NDCG@15: 0.1231
+Precision@20: 0.0227, Recall@20: 0.2760, NDCG@20: 0.1339
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 074, Loss: 3.3549
+Precision@5:  0.0375, Recall@5:  0.1206, NDCG@5:  0.0859
+Precision@10: 0.0300, Recall@10: 0.1873, NDCG@10: 0.1086
+Precision@15: 0.0261, Recall@15: 0.2378, NDCG@15: 0.1235
+Precision@20: 0.0227, Recall@20: 0.2754, NDCG@20: 0.1333
+EarlyStopping counter: 1 out of 50
+
+Epoch: 075, Loss: 3.3236
+Precision@5:  0.0375, Recall@5:  0.1213, NDCG@5:  0.0871
+Precision@10: 0.0300, Recall@10: 0.1863, NDCG@10: 0.1093
+Precision@15: 0.0261, Recall@15: 0.2381, NDCG@15: 0.1246
+Precision@20: 0.0229, Recall@20: 0.2771, NDCG@20: 0.1348
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 076, Loss: 3.3100
+Precision@5:  0.0385, Recall@5:  0.1241, NDCG@5:  0.0890
+Precision@10: 0.0304, Recall@10: 0.1886, NDCG@10: 0.1110
+Precision@15: 0.0262, Recall@15: 0.2379, NDCG@15: 0.1256
+Precision@20: 0.0232, Recall@20: 0.2804, NDCG@20: 0.1366
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 077, Loss: 3.3048
+Precision@5:  0.0385, Recall@5:  0.1252, NDCG@5:  0.0909
+Precision@10: 0.0307, Recall@10: 0.1906, NDCG@10: 0.1132
+Precision@15: 0.0265, Recall@15: 0.2405, NDCG@15: 0.1279
+Precision@20: 0.0231, Recall@20: 0.2809, NDCG@20: 0.1383
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 078, Loss: 3.3061
+Precision@5:  0.0391, Recall@5:  0.1253, NDCG@5:  0.0905
+Precision@10: 0.0311, Recall@10: 0.1935, NDCG@10: 0.1134
+Precision@15: 0.0264, Recall@15: 0.2397, NDCG@15: 0.1270
+Precision@20: 0.0234, Recall@20: 0.2800, NDCG@20: 0.1377
+EarlyStopping counter: 1 out of 50
+
+Epoch: 079, Loss: 3.2958
+Precision@5:  0.0385, Recall@5:  0.1236, NDCG@5:  0.0899
+Precision@10: 0.0312, Recall@10: 0.1941, NDCG@10: 0.1137
+Precision@15: 0.0264, Recall@15: 0.2412, NDCG@15: 0.1275
+Precision@20: 0.0233, Recall@20: 0.2793, NDCG@20: 0.1377
+EarlyStopping counter: 2 out of 50
+
+Epoch: 080, Loss: 3.2678
+Precision@5:  0.0383, Recall@5:  0.1226, NDCG@5:  0.0896
+Precision@10: 0.0313, Recall@10: 0.1945, NDCG@10: 0.1139
+Precision@15: 0.0264, Recall@15: 0.2427, NDCG@15: 0.1280
+Precision@20: 0.0233, Recall@20: 0.2799, NDCG@20: 0.1380
+EarlyStopping counter: 3 out of 50
+
+Epoch: 081, Loss: 3.2707
+Precision@5:  0.0385, Recall@5:  0.1248, NDCG@5:  0.0895
+Precision@10: 0.0314, Recall@10: 0.1958, NDCG@10: 0.1134
+Precision@15: 0.0266, Recall@15: 0.2395, NDCG@15: 0.1265
+Precision@20: 0.0232, Recall@20: 0.2776, NDCG@20: 0.1366
+EarlyStopping counter: 4 out of 50
+
+Epoch: 082, Loss: 3.2446
+Precision@5:  0.0387, Recall@5:  0.1241, NDCG@5:  0.0899
+Precision@10: 0.0315, Recall@10: 0.1967, NDCG@10: 0.1142
+Precision@15: 0.0266, Recall@15: 0.2383, NDCG@15: 0.1267
+Precision@20: 0.0234, Recall@20: 0.2801, NDCG@20: 0.1377
+EarlyStopping counter: 5 out of 50
+
+Epoch: 083, Loss: 3.2313
+Precision@5:  0.0383, Recall@5:  0.1217, NDCG@5:  0.0895
+Precision@10: 0.0313, Recall@10: 0.1971, NDCG@10: 0.1147
+Precision@15: 0.0270, Recall@15: 0.2459, NDCG@15: 0.1292
+Precision@20: 0.0234, Recall@20: 0.2803, NDCG@20: 0.1385
+EarlyStopping counter: 6 out of 50
+
+Epoch: 084, Loss: 3.2125
+Precision@5:  0.0391, Recall@5:  0.1253, NDCG@5:  0.0915
+Precision@10: 0.0314, Recall@10: 0.1959, NDCG@10: 0.1151
+Precision@15: 0.0271, Recall@15: 0.2449, NDCG@15: 0.1297
+Precision@20: 0.0236, Recall@20: 0.2810, NDCG@20: 0.1394
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 085, Loss: 3.2183
+Precision@5:  0.0387, Recall@5:  0.1241, NDCG@5:  0.0905
+Precision@10: 0.0310, Recall@10: 0.1937, NDCG@10: 0.1139
+Precision@15: 0.0272, Recall@15: 0.2480, NDCG@15: 0.1300
+Precision@20: 0.0239, Recall@20: 0.2837, NDCG@20: 0.1397
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 086, Loss: 3.2251
+Precision@5:  0.0385, Recall@5:  0.1240, NDCG@5:  0.0909
+Precision@10: 0.0314, Recall@10: 0.1947, NDCG@10: 0.1148
+Precision@15: 0.0270, Recall@15: 0.2449, NDCG@15: 0.1296
+Precision@20: 0.0238, Recall@20: 0.2838, NDCG@20: 0.1400
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 087, Loss: 3.1853
+Precision@5:  0.0395, Recall@5:  0.1260, NDCG@5:  0.0906
+Precision@10: 0.0314, Recall@10: 0.1952, NDCG@10: 0.1138
+Precision@15: 0.0268, Recall@15: 0.2423, NDCG@15: 0.1279
+Precision@20: 0.0238, Recall@20: 0.2839, NDCG@20: 0.1390
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 088, Loss: 3.1681
+Precision@5:  0.0391, Recall@5:  0.1245, NDCG@5:  0.0908
+Precision@10: 0.0317, Recall@10: 0.1977, NDCG@10: 0.1154
+Precision@15: 0.0269, Recall@15: 0.2452, NDCG@15: 0.1294
+Precision@20: 0.0240, Recall@20: 0.2848, NDCG@20: 0.1402
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 089, Loss: 3.1705
+Precision@5:  0.0393, Recall@5:  0.1251, NDCG@5:  0.0915
+Precision@10: 0.0319, Recall@10: 0.2009, NDCG@10: 0.1168
+Precision@15: 0.0271, Recall@15: 0.2462, NDCG@15: 0.1304
+Precision@20: 0.0242, Recall@20: 0.2853, NDCG@20: 0.1411
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 090, Loss: 3.1415
+Precision@5:  0.0402, Recall@5:  0.1304, NDCG@5:  0.0938
+Precision@10: 0.0314, Recall@10: 0.1959, NDCG@10: 0.1159
+Precision@15: 0.0273, Recall@15: 0.2475, NDCG@15: 0.1312
+Precision@20: 0.0243, Recall@20: 0.2878, NDCG@20: 0.1421
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 091, Loss: 3.1504
+Precision@5:  0.0408, Recall@5:  0.1311, NDCG@5:  0.0950
+Precision@10: 0.0317, Recall@10: 0.1982, NDCG@10: 0.1173
+Precision@15: 0.0273, Recall@15: 0.2482, NDCG@15: 0.1321
+Precision@20: 0.0243, Recall@20: 0.2860, NDCG@20: 0.1426
+EarlyStopping counter: 1 out of 50
+
+Epoch: 092, Loss: 3.1364
+Precision@5:  0.0402, Recall@5:  0.1288, NDCG@5:  0.0940
+Precision@10: 0.0320, Recall@10: 0.1986, NDCG@10: 0.1176
+Precision@15: 0.0271, Recall@15: 0.2467, NDCG@15: 0.1318
+Precision@20: 0.0243, Recall@20: 0.2858, NDCG@20: 0.1426
+EarlyStopping counter: 2 out of 50
+
+Epoch: 093, Loss: 3.1406
+Precision@5:  0.0402, Recall@5:  0.1301, NDCG@5:  0.0951
+Precision@10: 0.0321, Recall@10: 0.1982, NDCG@10: 0.1184
+Precision@15: 0.0274, Recall@15: 0.2485, NDCG@15: 0.1332
+Precision@20: 0.0244, Recall@20: 0.2865, NDCG@20: 0.1437
+EarlyStopping counter: 3 out of 50
+
+Epoch: 094, Loss: 3.1192
+Precision@5:  0.0406, Recall@5:  0.1322, NDCG@5:  0.0963
+Precision@10: 0.0324, Recall@10: 0.2004, NDCG@10: 0.1196
+Precision@15: 0.0273, Recall@15: 0.2493, NDCG@15: 0.1339
+Precision@20: 0.0242, Recall@20: 0.2850, NDCG@20: 0.1437
+EarlyStopping counter: 4 out of 50
+
+Epoch: 095, Loss: 3.1073
+Precision@5:  0.0410, Recall@5:  0.1309, NDCG@5:  0.0961
+Precision@10: 0.0323, Recall@10: 0.2004, NDCG@10: 0.1195
+Precision@15: 0.0275, Recall@15: 0.2481, NDCG@15: 0.1336
+Precision@20: 0.0240, Recall@20: 0.2854, NDCG@20: 0.1437
+EarlyStopping counter: 5 out of 50
+
+Epoch: 096, Loss: 3.1157
+Precision@5:  0.0412, Recall@5:  0.1328, NDCG@5:  0.0961
+Precision@10: 0.0327, Recall@10: 0.2035, NDCG@10: 0.1200
+Precision@15: 0.0275, Recall@15: 0.2484, NDCG@15: 0.1334
+Precision@20: 0.0240, Recall@20: 0.2858, NDCG@20: 0.1434
+EarlyStopping counter: 6 out of 50
+
+Epoch: 097, Loss: 3.0847
+Precision@5:  0.0410, Recall@5:  0.1333, NDCG@5:  0.0955
+Precision@10: 0.0331, Recall@10: 0.2063, NDCG@10: 0.1202
+Precision@15: 0.0278, Recall@15: 0.2514, NDCG@15: 0.1335
+Precision@20: 0.0240, Recall@20: 0.2860, NDCG@20: 0.1428
+EarlyStopping counter: 7 out of 50
+
+Epoch: 098, Loss: 3.0821
+Precision@5:  0.0414, Recall@5:  0.1343, NDCG@5:  0.0954
+Precision@10: 0.0329, Recall@10: 0.2036, NDCG@10: 0.1190
+Precision@15: 0.0274, Recall@15: 0.2478, NDCG@15: 0.1321
+Precision@20: 0.0241, Recall@20: 0.2855, NDCG@20: 0.1423
+EarlyStopping counter: 8 out of 50
+
+Epoch: 099, Loss: 3.0640
+Precision@5:  0.0420, Recall@5:  0.1371, NDCG@5:  0.0968
+Precision@10: 0.0330, Recall@10: 0.2042, NDCG@10: 0.1198
+Precision@15: 0.0273, Recall@15: 0.2460, NDCG@15: 0.1322
+Precision@20: 0.0243, Recall@20: 0.2882, NDCG@20: 0.1435
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 100, Loss: 3.0369
+Precision@5:  0.0425, Recall@5:  0.1395, NDCG@5:  0.0985
+Precision@10: 0.0329, Recall@10: 0.2034, NDCG@10: 0.1202
+Precision@15: 0.0269, Recall@15: 0.2416, NDCG@15: 0.1318
+Precision@20: 0.0242, Recall@20: 0.2873, NDCG@20: 0.1440
+EarlyStopping counter: 1 out of 50
+
+Epoch: 101, Loss: 3.0374
+Precision@5:  0.0425, Recall@5:  0.1371, NDCG@5:  0.0975
+Precision@10: 0.0332, Recall@10: 0.2066, NDCG@10: 0.1209
+Precision@15: 0.0269, Recall@15: 0.2442, NDCG@15: 0.1321
+Precision@20: 0.0241, Recall@20: 0.2868, NDCG@20: 0.1435
+EarlyStopping counter: 2 out of 50
+
+Epoch: 102, Loss: 3.0327
+Precision@5:  0.0427, Recall@5:  0.1378, NDCG@5:  0.0978
+Precision@10: 0.0332, Recall@10: 0.2070, NDCG@10: 0.1212
+Precision@15: 0.0271, Recall@15: 0.2462, NDCG@15: 0.1329
+Precision@20: 0.0243, Recall@20: 0.2878, NDCG@20: 0.1442
+EarlyStopping counter: 3 out of 50
+
+Epoch: 103, Loss: 3.0360
+Precision@5:  0.0423, Recall@5:  0.1368, NDCG@5:  0.0979
+Precision@10: 0.0328, Recall@10: 0.2046, NDCG@10: 0.1209
+Precision@15: 0.0275, Recall@15: 0.2494, NDCG@15: 0.1343
+Precision@20: 0.0242, Recall@20: 0.2875, NDCG@20: 0.1446
+EarlyStopping counter: 4 out of 50
+
+Epoch: 104, Loss: 3.0193
+Precision@5:  0.0425, Recall@5:  0.1369, NDCG@5:  0.0985
+Precision@10: 0.0332, Recall@10: 0.2060, NDCG@10: 0.1221
+Precision@15: 0.0275, Recall@15: 0.2509, NDCG@15: 0.1353
+Precision@20: 0.0244, Recall@20: 0.2893, NDCG@20: 0.1457
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 105, Loss: 3.0142
+Precision@5:  0.0431, Recall@5:  0.1378, NDCG@5:  0.0992
+Precision@10: 0.0332, Recall@10: 0.2070, NDCG@10: 0.1225
+Precision@15: 0.0274, Recall@15: 0.2492, NDCG@15: 0.1351
+Precision@20: 0.0242, Recall@20: 0.2882, NDCG@20: 0.1455
+EarlyStopping counter: 1 out of 50
+
+Epoch: 106, Loss: 2.9918
+Precision@5:  0.0437, Recall@5:  0.1399, NDCG@5:  0.1001
+Precision@10: 0.0336, Recall@10: 0.2075, NDCG@10: 0.1229
+Precision@15: 0.0275, Recall@15: 0.2490, NDCG@15: 0.1353
+Precision@20: 0.0242, Recall@20: 0.2898, NDCG@20: 0.1460
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 107, Loss: 3.0044
+Precision@5:  0.0439, Recall@5:  0.1407, NDCG@5:  0.0997
+Precision@10: 0.0333, Recall@10: 0.2073, NDCG@10: 0.1222
+Precision@15: 0.0278, Recall@15: 0.2522, NDCG@15: 0.1356
+Precision@20: 0.0244, Recall@20: 0.2919, NDCG@20: 0.1460
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 108, Loss: 2.9815
+Precision@5:  0.0437, Recall@5:  0.1397, NDCG@5:  0.1001
+Precision@10: 0.0336, Recall@10: 0.2083, NDCG@10: 0.1232
+Precision@15: 0.0280, Recall@15: 0.2546, NDCG@15: 0.1369
+Precision@20: 0.0244, Recall@20: 0.2917, NDCG@20: 0.1466
+EarlyStopping counter: 1 out of 50
+
+Epoch: 109, Loss: 2.9632
+Precision@5:  0.0433, Recall@5:  0.1387, NDCG@5:  0.1001
+Precision@10: 0.0336, Recall@10: 0.2085, NDCG@10: 0.1238
+Precision@15: 0.0280, Recall@15: 0.2539, NDCG@15: 0.1372
+Precision@20: 0.0242, Recall@20: 0.2907, NDCG@20: 0.1468
+EarlyStopping counter: 2 out of 50
+
+Epoch: 110, Loss: 2.9398
+Precision@5:  0.0421, Recall@5:  0.1350, NDCG@5:  0.0984
+Precision@10: 0.0342, Recall@10: 0.2112, NDCG@10: 0.1245
+Precision@15: 0.0277, Recall@15: 0.2512, NDCG@15: 0.1363
+Precision@20: 0.0242, Recall@20: 0.2886, NDCG@20: 0.1462
+EarlyStopping counter: 3 out of 50
+
+Epoch: 111, Loss: 2.9574
+Precision@5:  0.0418, Recall@5:  0.1334, NDCG@5:  0.0980
+Precision@10: 0.0341, Recall@10: 0.2099, NDCG@10: 0.1245
+Precision@15: 0.0279, Recall@15: 0.2527, NDCG@15: 0.1370
+Precision@20: 0.0240, Recall@20: 0.2874, NDCG@20: 0.1462
+EarlyStopping counter: 4 out of 50
+
+Epoch: 112, Loss: 2.9306
+Precision@5:  0.0427, Recall@5:  0.1374, NDCG@5:  0.0997
+Precision@10: 0.0339, Recall@10: 0.2094, NDCG@10: 0.1244
+Precision@15: 0.0277, Recall@15: 0.2500, NDCG@15: 0.1365
+Precision@20: 0.0240, Recall@20: 0.2881, NDCG@20: 0.1465
+EarlyStopping counter: 5 out of 50
+
+Epoch: 113, Loss: 2.9201
+Precision@5:  0.0427, Recall@5:  0.1368, NDCG@5:  0.1001
+Precision@10: 0.0342, Recall@10: 0.2113, NDCG@10: 0.1258
+Precision@15: 0.0279, Recall@15: 0.2523, NDCG@15: 0.1379
+Precision@20: 0.0242, Recall@20: 0.2896, NDCG@20: 0.1477
+EarlyStopping counter: 6 out of 50
+
+Epoch: 114, Loss: 2.8968
+Precision@5:  0.0425, Recall@5:  0.1361, NDCG@5:  0.1002
+Precision@10: 0.0347, Recall@10: 0.2130, NDCG@10: 0.1269
+Precision@15: 0.0279, Recall@15: 0.2528, NDCG@15: 0.1385
+Precision@20: 0.0245, Recall@20: 0.2938, NDCG@20: 0.1492
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 115, Loss: 2.8989
+Precision@5:  0.0423, Recall@5:  0.1357, NDCG@5:  0.1009
+Precision@10: 0.0340, Recall@10: 0.2087, NDCG@10: 0.1264
+Precision@15: 0.0277, Recall@15: 0.2502, NDCG@15: 0.1386
+Precision@20: 0.0245, Recall@20: 0.2939, NDCG@20: 0.1500
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 116, Loss: 2.8800
+Precision@5:  0.0420, Recall@5:  0.1338, NDCG@5:  0.0994
+Precision@10: 0.0335, Recall@10: 0.2074, NDCG@10: 0.1251
+Precision@15: 0.0277, Recall@15: 0.2503, NDCG@15: 0.1379
+Precision@20: 0.0246, Recall@20: 0.2949, NDCG@20: 0.1496
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 117, Loss: 2.8797
+Precision@5:  0.0423, Recall@5:  0.1347, NDCG@5:  0.1003
+Precision@10: 0.0332, Recall@10: 0.2075, NDCG@10: 0.1255
+Precision@15: 0.0275, Recall@15: 0.2474, NDCG@15: 0.1377
+Precision@20: 0.0244, Recall@20: 0.2930, NDCG@20: 0.1496
+EarlyStopping counter: 1 out of 50
+
+Epoch: 118, Loss: 2.8775
+Precision@5:  0.0435, Recall@5:  0.1376, NDCG@5:  0.1018
+Precision@10: 0.0335, Recall@10: 0.2068, NDCG@10: 0.1256
+Precision@15: 0.0277, Recall@15: 0.2493, NDCG@15: 0.1383
+Precision@20: 0.0245, Recall@20: 0.2943, NDCG@20: 0.1500
+EarlyStopping counter: 2 out of 50
+
+Epoch: 119, Loss: 2.8656
+Precision@5:  0.0439, Recall@5:  0.1393, NDCG@5:  0.1030
+Precision@10: 0.0332, Recall@10: 0.2047, NDCG@10: 0.1256
+Precision@15: 0.0278, Recall@15: 0.2513, NDCG@15: 0.1395
+Precision@20: 0.0245, Recall@20: 0.2943, NDCG@20: 0.1507
+EarlyStopping counter: 3 out of 50
+
+Epoch: 120, Loss: 2.8677
+Precision@5:  0.0437, Recall@5:  0.1378, NDCG@5:  0.1033
+Precision@10: 0.0330, Recall@10: 0.2043, NDCG@10: 0.1262
+Precision@15: 0.0277, Recall@15: 0.2522, NDCG@15: 0.1403
+Precision@20: 0.0244, Recall@20: 0.2957, NDCG@20: 0.1517
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 121, Loss: 2.8356
+Precision@5:  0.0439, Recall@5:  0.1381, NDCG@5:  0.1018
+Precision@10: 0.0331, Recall@10: 0.2059, NDCG@10: 0.1250
+Precision@15: 0.0275, Recall@15: 0.2529, NDCG@15: 0.1387
+Precision@20: 0.0243, Recall@20: 0.2950, NDCG@20: 0.1499
+EarlyStopping counter: 1 out of 50
+
+Epoch: 122, Loss: 2.8385
+Precision@5:  0.0443, Recall@5:  0.1411, NDCG@5:  0.1029
+Precision@10: 0.0332, Recall@10: 0.2051, NDCG@10: 0.1250
+Precision@15: 0.0277, Recall@15: 0.2519, NDCG@15: 0.1388
+Precision@20: 0.0243, Recall@20: 0.2946, NDCG@20: 0.1500
+EarlyStopping counter: 2 out of 50
+
+Epoch: 123, Loss: 2.8404
+Precision@5:  0.0435, Recall@5:  0.1386, NDCG@5:  0.1020
+Precision@10: 0.0334, Recall@10: 0.2063, NDCG@10: 0.1254
+Precision@15: 0.0278, Recall@15: 0.2558, NDCG@15: 0.1399
+Precision@20: 0.0244, Recall@20: 0.2954, NDCG@20: 0.1503
+EarlyStopping counter: 3 out of 50
+
+Epoch: 124, Loss: 2.8278
+Precision@5:  0.0446, Recall@5:  0.1408, NDCG@5:  0.1028
+Precision@10: 0.0340, Recall@10: 0.2099, NDCG@10: 0.1263
+Precision@15: 0.0279, Recall@15: 0.2562, NDCG@15: 0.1397
+Precision@20: 0.0245, Recall@20: 0.2982, NDCG@20: 0.1507
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 125, Loss: 2.8352
+Precision@5:  0.0443, Recall@5:  0.1390, NDCG@5:  0.1017
+Precision@10: 0.0339, Recall@10: 0.2105, NDCG@10: 0.1260
+Precision@15: 0.0280, Recall@15: 0.2566, NDCG@15: 0.1394
+Precision@20: 0.0243, Recall@20: 0.2963, NDCG@20: 0.1498
+EarlyStopping counter: 1 out of 50
+
+Epoch: 126, Loss: 2.7962
+Precision@5:  0.0443, Recall@5:  0.1396, NDCG@5:  0.1023
+Precision@10: 0.0340, Recall@10: 0.2108, NDCG@10: 0.1266
+Precision@15: 0.0280, Recall@15: 0.2576, NDCG@15: 0.1402
+Precision@20: 0.0245, Recall@20: 0.2989, NDCG@20: 0.1509
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 127, Loss: 2.7977
+Precision@5:  0.0443, Recall@5:  0.1403, NDCG@5:  0.1032
+Precision@10: 0.0339, Recall@10: 0.2104, NDCG@10: 0.1271
+Precision@15: 0.0281, Recall@15: 0.2602, NDCG@15: 0.1414
+Precision@20: 0.0244, Recall@20: 0.2969, NDCG@20: 0.1512
+EarlyStopping counter: 1 out of 50
+
+Epoch: 128, Loss: 2.7840
+Precision@5:  0.0437, Recall@5:  0.1387, NDCG@5:  0.1021
+Precision@10: 0.0340, Recall@10: 0.2103, NDCG@10: 0.1266
+Precision@15: 0.0279, Recall@15: 0.2580, NDCG@15: 0.1404
+Precision@20: 0.0244, Recall@20: 0.2949, NDCG@20: 0.1503
+EarlyStopping counter: 2 out of 50
+
+Epoch: 129, Loss: 2.7724
+Precision@5:  0.0441, Recall@5:  0.1386, NDCG@5:  0.1019
+Precision@10: 0.0338, Recall@10: 0.2091, NDCG@10: 0.1259
+Precision@15: 0.0280, Recall@15: 0.2576, NDCG@15: 0.1399
+Precision@20: 0.0243, Recall@20: 0.2938, NDCG@20: 0.1497
+EarlyStopping counter: 3 out of 50
+
+Epoch: 130, Loss: 2.7456
+Precision@5:  0.0446, Recall@5:  0.1392, NDCG@5:  0.1026
+Precision@10: 0.0343, Recall@10: 0.2107, NDCG@10: 0.1268
+Precision@15: 0.0282, Recall@15: 0.2616, NDCG@15: 0.1413
+Precision@20: 0.0246, Recall@20: 0.2978, NDCG@20: 0.1510
+EarlyStopping counter: 4 out of 50
+
+Epoch: 131, Loss: 2.7354
+Precision@5:  0.0448, Recall@5:  0.1401, NDCG@5:  0.1032
+Precision@10: 0.0342, Recall@10: 0.2104, NDCG@10: 0.1269
+Precision@15: 0.0280, Recall@15: 0.2581, NDCG@15: 0.1406
+Precision@20: 0.0246, Recall@20: 0.2987, NDCG@20: 0.1513
+EarlyStopping counter: 5 out of 50
+
+Epoch: 132, Loss: 2.7665
+Precision@5:  0.0454, Recall@5:  0.1424, NDCG@5:  0.1043
+Precision@10: 0.0347, Recall@10: 0.2133, NDCG@10: 0.1281
+Precision@15: 0.0282, Recall@15: 0.2599, NDCG@15: 0.1414
+Precision@20: 0.0245, Recall@20: 0.2977, NDCG@20: 0.1515
+EarlyStopping counter: 6 out of 50
+
+Epoch: 133, Loss: 2.7387
+Precision@5:  0.0448, Recall@5:  0.1423, NDCG@5:  0.1036
+Precision@10: 0.0345, Recall@10: 0.2124, NDCG@10: 0.1275
+Precision@15: 0.0285, Recall@15: 0.2617, NDCG@15: 0.1417
+Precision@20: 0.0245, Recall@20: 0.2974, NDCG@20: 0.1511
+EarlyStopping counter: 7 out of 50
+
+Epoch: 134, Loss: 2.7210
+Precision@5:  0.0452, Recall@5:  0.1424, NDCG@5:  0.1032
+Precision@10: 0.0343, Recall@10: 0.2110, NDCG@10: 0.1264
+Precision@15: 0.0284, Recall@15: 0.2628, NDCG@15: 0.1412
+Precision@20: 0.0244, Recall@20: 0.2968, NDCG@20: 0.1503
+EarlyStopping counter: 8 out of 50
+
+Epoch: 135, Loss: 2.7207
+Precision@5:  0.0450, Recall@5:  0.1407, NDCG@5:  0.1027
+Precision@10: 0.0341, Recall@10: 0.2101, NDCG@10: 0.1261
+Precision@15: 0.0283, Recall@15: 0.2613, NDCG@15: 0.1409
+Precision@20: 0.0245, Recall@20: 0.2961, NDCG@20: 0.1503
+EarlyStopping counter: 9 out of 50
+
+Epoch: 136, Loss: 2.7189
+Precision@5:  0.0458, Recall@5:  0.1430, NDCG@5:  0.1038
+Precision@10: 0.0345, Recall@10: 0.2132, NDCG@10: 0.1274
+Precision@15: 0.0284, Recall@15: 0.2634, NDCG@15: 0.1418
+Precision@20: 0.0246, Recall@20: 0.2980, NDCG@20: 0.1512
+EarlyStopping counter: 10 out of 50
+
+Epoch: 137, Loss: 2.7227
+Precision@5:  0.0458, Recall@5:  0.1433, NDCG@5:  0.1039
+Precision@10: 0.0349, Recall@10: 0.2149, NDCG@10: 0.1279
+Precision@15: 0.0286, Recall@15: 0.2645, NDCG@15: 0.1422
+Precision@20: 0.0247, Recall@20: 0.3004, NDCG@20: 0.1518
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 138, Loss: 2.6985
+Precision@5:  0.0446, Recall@5:  0.1397, NDCG@5:  0.1033
+Precision@10: 0.0345, Recall@10: 0.2134, NDCG@10: 0.1282
+Precision@15: 0.0285, Recall@15: 0.2639, NDCG@15: 0.1427
+Precision@20: 0.0250, Recall@20: 0.3046, NDCG@20: 0.1535
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 139, Loss: 2.6980
+Precision@5:  0.0446, Recall@5:  0.1390, NDCG@5:  0.1034
+Precision@10: 0.0345, Recall@10: 0.2116, NDCG@10: 0.1280
+Precision@15: 0.0287, Recall@15: 0.2653, NDCG@15: 0.1434
+Precision@20: 0.0250, Recall@20: 0.3038, NDCG@20: 0.1536
+EarlyStopping counter: 1 out of 50
+
+Epoch: 140, Loss: 2.6752
+Precision@5:  0.0450, Recall@5:  0.1397, NDCG@5:  0.1041
+Precision@10: 0.0344, Recall@10: 0.2129, NDCG@10: 0.1286
+Precision@15: 0.0289, Recall@15: 0.2688, NDCG@15: 0.1446
+Precision@20: 0.0247, Recall@20: 0.3009, NDCG@20: 0.1532
+EarlyStopping counter: 2 out of 50
+
+Epoch: 141, Loss: 2.6671
+Precision@5:  0.0448, Recall@5:  0.1385, NDCG@5:  0.1039
+Precision@10: 0.0336, Recall@10: 0.2078, NDCG@10: 0.1271
+Precision@15: 0.0291, Recall@15: 0.2691, NDCG@15: 0.1449
+Precision@20: 0.0246, Recall@20: 0.2996, NDCG@20: 0.1530
+EarlyStopping counter: 3 out of 50
+
+Epoch: 142, Loss: 2.6612
+Precision@5:  0.0450, Recall@5:  0.1411, NDCG@5:  0.1036
+Precision@10: 0.0329, Recall@10: 0.2023, NDCG@10: 0.1243
+Precision@15: 0.0291, Recall@15: 0.2700, NDCG@15: 0.1438
+Precision@20: 0.0246, Recall@20: 0.2989, NDCG@20: 0.1517
+EarlyStopping counter: 4 out of 50
+
+Epoch: 143, Loss: 2.6468
+Precision@5:  0.0454, Recall@5:  0.1430, NDCG@5:  0.1049
+Precision@10: 0.0335, Recall@10: 0.2066, NDCG@10: 0.1261
+Precision@15: 0.0289, Recall@15: 0.2684, NDCG@15: 0.1439
+Precision@20: 0.0248, Recall@20: 0.3001, NDCG@20: 0.1525
+EarlyStopping counter: 5 out of 50
+
+Epoch: 144, Loss: 2.6530
+Precision@5:  0.0448, Recall@5:  0.1398, NDCG@5:  0.1041
+Precision@10: 0.0336, Recall@10: 0.2064, NDCG@10: 0.1266
+Precision@15: 0.0288, Recall@15: 0.2673, NDCG@15: 0.1440
+Precision@20: 0.0244, Recall@20: 0.2963, NDCG@20: 0.1519
+EarlyStopping counter: 6 out of 50
+
+Epoch: 145, Loss: 2.6649
+Precision@5:  0.0448, Recall@5:  0.1406, NDCG@5:  0.1052
+Precision@10: 0.0337, Recall@10: 0.2066, NDCG@10: 0.1275
+Precision@15: 0.0285, Recall@15: 0.2662, NDCG@15: 0.1444
+Precision@20: 0.0245, Recall@20: 0.2973, NDCG@20: 0.1530
+EarlyStopping counter: 7 out of 50
+
+Epoch: 146, Loss: 2.6314
+Precision@5:  0.0441, Recall@5:  0.1395, NDCG@5:  0.1042
+Precision@10: 0.0335, Recall@10: 0.2049, NDCG@10: 0.1267
+Precision@15: 0.0284, Recall@15: 0.2648, NDCG@15: 0.1437
+Precision@20: 0.0247, Recall@20: 0.2988, NDCG@20: 0.1530
+EarlyStopping counter: 8 out of 50
+
+Epoch: 147, Loss: 2.6211
+Precision@5:  0.0444, Recall@5:  0.1399, NDCG@5:  0.1046
+Precision@10: 0.0339, Recall@10: 0.2077, NDCG@10: 0.1276
+Precision@15: 0.0282, Recall@15: 0.2627, NDCG@15: 0.1431
+Precision@20: 0.0247, Recall@20: 0.2986, NDCG@20: 0.1530
+EarlyStopping counter: 9 out of 50
+
+Epoch: 148, Loss: 2.6218
+Precision@5:  0.0441, Recall@5:  0.1381, NDCG@5:  0.1030
+Precision@10: 0.0342, Recall@10: 0.2103, NDCG@10: 0.1274
+Precision@15: 0.0284, Recall@15: 0.2642, NDCG@15: 0.1427
+Precision@20: 0.0245, Recall@20: 0.2985, NDCG@20: 0.1520
+EarlyStopping counter: 10 out of 50
+
+Epoch: 149, Loss: 2.6007
+Precision@5:  0.0437, Recall@5:  0.1377, NDCG@5:  0.1033
+Precision@10: 0.0338, Recall@10: 0.2083, NDCG@10: 0.1274
+Precision@15: 0.0284, Recall@15: 0.2639, NDCG@15: 0.1432
+Precision@20: 0.0247, Recall@20: 0.2991, NDCG@20: 0.1527
+EarlyStopping counter: 11 out of 50
+
+Epoch: 150, Loss: 2.5841
+Precision@5:  0.0437, Recall@5:  0.1372, NDCG@5:  0.1029
+Precision@10: 0.0342, Recall@10: 0.2108, NDCG@10: 0.1279
+Precision@15: 0.0282, Recall@15: 0.2620, NDCG@15: 0.1425
+Precision@20: 0.0245, Recall@20: 0.2990, NDCG@20: 0.1524
+EarlyStopping counter: 12 out of 50
+
+Epoch: 151, Loss: 2.5946
+Precision@5:  0.0441, Recall@5:  0.1388, NDCG@5:  0.1031
+Precision@10: 0.0347, Recall@10: 0.2141, NDCG@10: 0.1287
+Precision@15: 0.0284, Recall@15: 0.2643, NDCG@15: 0.1429
+Precision@20: 0.0247, Recall@20: 0.3018, NDCG@20: 0.1528
+EarlyStopping counter: 13 out of 50
+
+Epoch: 152, Loss: 2.5997
+Precision@5:  0.0444, Recall@5:  0.1413, NDCG@5:  0.1051
+Precision@10: 0.0345, Recall@10: 0.2128, NDCG@10: 0.1297
+Precision@15: 0.0279, Recall@15: 0.2582, NDCG@15: 0.1426
+Precision@20: 0.0247, Recall@20: 0.3010, NDCG@20: 0.1540
+EarlyStopping counter: 14 out of 50
+
+Epoch: 153, Loss: 2.5879
+Precision@5:  0.0443, Recall@5:  0.1404, NDCG@5:  0.1047
+Precision@10: 0.0344, Recall@10: 0.2126, NDCG@10: 0.1293
+Precision@15: 0.0278, Recall@15: 0.2574, NDCG@15: 0.1421
+Precision@20: 0.0246, Recall@20: 0.3001, NDCG@20: 0.1536
+EarlyStopping counter: 15 out of 50
+
+Epoch: 154, Loss: 2.5619
+Precision@5:  0.0450, Recall@5:  0.1434, NDCG@5:  0.1065
+Precision@10: 0.0342, Recall@10: 0.2121, NDCG@10: 0.1297
+Precision@15: 0.0279, Recall@15: 0.2589, NDCG@15: 0.1432
+Precision@20: 0.0245, Recall@20: 0.2992, NDCG@20: 0.1540
+EarlyStopping counter: 16 out of 50
+
+Epoch: 155, Loss: 2.5529
+Precision@5:  0.0454, Recall@5:  0.1444, NDCG@5:  0.1072
+Precision@10: 0.0344, Recall@10: 0.2145, NDCG@10: 0.1307
+Precision@15: 0.0280, Recall@15: 0.2623, NDCG@15: 0.1442
+Precision@20: 0.0245, Recall@20: 0.2987, NDCG@20: 0.1541
+EarlyStopping counter: 17 out of 50
+
+Epoch: 156, Loss: 2.5662
+Precision@5:  0.0446, Recall@5:  0.1429, NDCG@5:  0.1063
+Precision@10: 0.0340, Recall@10: 0.2133, NDCG@10: 0.1302
+Precision@15: 0.0278, Recall@15: 0.2616, NDCG@15: 0.1439
+Precision@20: 0.0248, Recall@20: 0.3030, NDCG@20: 0.1551
+EarlyStopping counter: 18 out of 50
+
+Epoch: 157, Loss: 2.5450
+Precision@5:  0.0441, Recall@5:  0.1428, NDCG@5:  0.1056
+Precision@10: 0.0342, Recall@10: 0.2127, NDCG@10: 0.1296
+Precision@15: 0.0280, Recall@15: 0.2618, NDCG@15: 0.1435
+Precision@20: 0.0245, Recall@20: 0.2992, NDCG@20: 0.1537
+EarlyStopping counter: 19 out of 50
+
+Epoch: 158, Loss: 2.5353
+Precision@5:  0.0444, Recall@5:  0.1455, NDCG@5:  0.1058
+Precision@10: 0.0341, Recall@10: 0.2125, NDCG@10: 0.1289
+Precision@15: 0.0280, Recall@15: 0.2614, NDCG@15: 0.1429
+Precision@20: 0.0248, Recall@20: 0.3029, NDCG@20: 0.1540
+EarlyStopping counter: 20 out of 50
+
+Epoch: 159, Loss: 2.5336
+Precision@5:  0.0460, Recall@5:  0.1472, NDCG@5:  0.1075
+Precision@10: 0.0339, Recall@10: 0.2105, NDCG@10: 0.1289
+Precision@15: 0.0278, Recall@15: 0.2607, NDCG@15: 0.1432
+Precision@20: 0.0246, Recall@20: 0.3017, NDCG@20: 0.1542
+EarlyStopping counter: 21 out of 50
+
+Epoch: 160, Loss: 2.5098
+Precision@5:  0.0452, Recall@5:  0.1416, NDCG@5:  0.1046
+Precision@10: 0.0337, Recall@10: 0.2093, NDCG@10: 0.1274
+Precision@15: 0.0278, Recall@15: 0.2596, NDCG@15: 0.1418
+Precision@20: 0.0247, Recall@20: 0.3024, NDCG@20: 0.1532
+EarlyStopping counter: 22 out of 50
+
+Epoch: 161, Loss: 2.5076
+Precision@5:  0.0446, Recall@5:  0.1409, NDCG@5:  0.1050
+Precision@10: 0.0337, Recall@10: 0.2089, NDCG@10: 0.1282
+Precision@15: 0.0277, Recall@15: 0.2595, NDCG@15: 0.1425
+Precision@20: 0.0248, Recall@20: 0.3021, NDCG@20: 0.1541
+EarlyStopping counter: 23 out of 50
+
+Epoch: 162, Loss: 2.5230
+Precision@5:  0.0441, Recall@5:  0.1407, NDCG@5:  0.1049
+Precision@10: 0.0338, Recall@10: 0.2092, NDCG@10: 0.1285
+Precision@15: 0.0277, Recall@15: 0.2585, NDCG@15: 0.1425
+Precision@20: 0.0247, Recall@20: 0.3021, NDCG@20: 0.1543
+EarlyStopping counter: 24 out of 50
+
+Epoch: 163, Loss: 2.5011
+Precision@5:  0.0443, Recall@5:  0.1409, NDCG@5:  0.1045
+Precision@10: 0.0337, Recall@10: 0.2108, NDCG@10: 0.1282
+Precision@15: 0.0279, Recall@15: 0.2596, NDCG@15: 0.1423
+Precision@20: 0.0248, Recall@20: 0.3018, NDCG@20: 0.1536
+EarlyStopping counter: 25 out of 50
+
+Epoch: 164, Loss: 2.5053
+Precision@5:  0.0439, Recall@5:  0.1394, NDCG@5:  0.1061
+Precision@10: 0.0338, Recall@10: 0.2112, NDCG@10: 0.1305
+Precision@15: 0.0278, Recall@15: 0.2589, NDCG@15: 0.1442
+Precision@20: 0.0245, Recall@20: 0.3000, NDCG@20: 0.1552
+EarlyStopping counter: 26 out of 50
+
+Epoch: 165, Loss: 2.4839
+Precision@5:  0.0446, Recall@5:  0.1426, NDCG@5:  0.1068
+Precision@10: 0.0342, Recall@10: 0.2138, NDCG@10: 0.1309
+Precision@15: 0.0275, Recall@15: 0.2565, NDCG@15: 0.1431
+Precision@20: 0.0247, Recall@20: 0.3011, NDCG@20: 0.1551
+EarlyStopping counter: 27 out of 50
+
+Epoch: 166, Loss: 2.5035
+Precision@5:  0.0446, Recall@5:  0.1442, NDCG@5:  0.1066
+Precision@10: 0.0343, Recall@10: 0.2156, NDCG@10: 0.1310
+Precision@15: 0.0275, Recall@15: 0.2570, NDCG@15: 0.1428
+Precision@20: 0.0248, Recall@20: 0.3028, NDCG@20: 0.1552
+EarlyStopping counter: 28 out of 50
+
+Epoch: 167, Loss: 2.4676
+Precision@5:  0.0448, Recall@5:  0.1435, NDCG@5:  0.1071
+Precision@10: 0.0340, Recall@10: 0.2132, NDCG@10: 0.1308
+Precision@15: 0.0275, Recall@15: 0.2555, NDCG@15: 0.1430
+Precision@20: 0.0247, Recall@20: 0.3027, NDCG@20: 0.1556
+EarlyStopping counter: 29 out of 50
+
+Epoch: 168, Loss: 2.4567
+Precision@5:  0.0441, Recall@5:  0.1417, NDCG@5:  0.1059
+Precision@10: 0.0342, Recall@10: 0.2139, NDCG@10: 0.1306
+Precision@15: 0.0277, Recall@15: 0.2551, NDCG@15: 0.1425
+Precision@20: 0.0246, Recall@20: 0.3030, NDCG@20: 0.1550
+EarlyStopping counter: 30 out of 50
+
+Epoch: 169, Loss: 2.4717
+Precision@5:  0.0448, Recall@5:  0.1438, NDCG@5:  0.1072
+Precision@10: 0.0342, Recall@10: 0.2135, NDCG@10: 0.1309
+Precision@15: 0.0275, Recall@15: 0.2553, NDCG@15: 0.1429
+Precision@20: 0.0246, Recall@20: 0.3030, NDCG@20: 0.1555
+EarlyStopping counter: 31 out of 50
+
+Epoch: 170, Loss: 2.4489
+Precision@5:  0.0444, Recall@5:  0.1419, NDCG@5:  0.1065
+Precision@10: 0.0340, Recall@10: 0.2116, NDCG@10: 0.1303
+Precision@15: 0.0275, Recall@15: 0.2568, NDCG@15: 0.1431
+Precision@20: 0.0247, Recall@20: 0.3037, NDCG@20: 0.1556
+EarlyStopping counter: 32 out of 50
+
+Epoch: 171, Loss: 2.4432
+Precision@5:  0.0450, Recall@5:  0.1448, NDCG@5:  0.1070
+Precision@10: 0.0342, Recall@10: 0.2135, NDCG@10: 0.1304
+Precision@15: 0.0273, Recall@15: 0.2531, NDCG@15: 0.1418
+Precision@20: 0.0246, Recall@20: 0.3009, NDCG@20: 0.1546
+EarlyStopping counter: 33 out of 50
+
+Epoch: 172, Loss: 2.4307
+Precision@5:  0.0452, Recall@5:  0.1442, NDCG@5:  0.1070
+Precision@10: 0.0344, Recall@10: 0.2134, NDCG@10: 0.1306
+Precision@15: 0.0274, Recall@15: 0.2546, NDCG@15: 0.1423
+Precision@20: 0.0247, Recall@20: 0.3029, NDCG@20: 0.1552
+EarlyStopping counter: 34 out of 50
+
+Epoch: 173, Loss: 2.4250
+Precision@5:  0.0444, Recall@5:  0.1417, NDCG@5:  0.1055
+Precision@10: 0.0344, Recall@10: 0.2142, NDCG@10: 0.1304
+Precision@15: 0.0275, Recall@15: 0.2550, NDCG@15: 0.1420
+Precision@20: 0.0246, Recall@20: 0.3030, NDCG@20: 0.1546
+EarlyStopping counter: 35 out of 50
+
+Epoch: 174, Loss: 2.4427
+Precision@5:  0.0450, Recall@5:  0.1446, NDCG@5:  0.1072
+Precision@10: 0.0344, Recall@10: 0.2151, NDCG@10: 0.1312
+Precision@15: 0.0276, Recall@15: 0.2571, NDCG@15: 0.1431
+Precision@20: 0.0246, Recall@20: 0.3034, NDCG@20: 0.1554
+EarlyStopping counter: 36 out of 50
+
+Epoch: 175, Loss: 2.3981
+Precision@5:  0.0454, Recall@5:  0.1453, NDCG@5:  0.1083
+Precision@10: 0.0342, Recall@10: 0.2138, NDCG@10: 0.1316
+Precision@15: 0.0276, Recall@15: 0.2566, NDCG@15: 0.1439
+Precision@20: 0.0247, Recall@20: 0.3032, NDCG@20: 0.1562
+EarlyStopping counter: 37 out of 50
+
+Epoch: 176, Loss: 2.4085
+Precision@5:  0.0458, Recall@5:  0.1470, NDCG@5:  0.1087
+Precision@10: 0.0345, Recall@10: 0.2148, NDCG@10: 0.1320
+Precision@15: 0.0268, Recall@15: 0.2497, NDCG@15: 0.1419
+Precision@20: 0.0248, Recall@20: 0.3034, NDCG@20: 0.1562
+EarlyStopping counter: 38 out of 50
+
+Epoch: 177, Loss: 2.4079
+Precision@5:  0.0458, Recall@5:  0.1466, NDCG@5:  0.1093
+Precision@10: 0.0344, Recall@10: 0.2140, NDCG@10: 0.1323
+Precision@15: 0.0271, Recall@15: 0.2532, NDCG@15: 0.1434
+Precision@20: 0.0248, Recall@20: 0.3037, NDCG@20: 0.1569
+EarlyStopping counter: 39 out of 50
+
+Epoch: 178, Loss: 2.3795
+Precision@5:  0.0450, Recall@5:  0.1447, NDCG@5:  0.1083
+Precision@10: 0.0345, Recall@10: 0.2152, NDCG@10: 0.1324
+Precision@15: 0.0270, Recall@15: 0.2529, NDCG@15: 0.1431
+Precision@20: 0.0247, Recall@20: 0.3033, NDCG@20: 0.1565
+EarlyStopping counter: 40 out of 50
+
+Epoch: 179, Loss: 2.3880
+Precision@5:  0.0444, Recall@5:  0.1451, NDCG@5:  0.1087
+Precision@10: 0.0343, Recall@10: 0.2137, NDCG@10: 0.1325
+Precision@15: 0.0271, Recall@15: 0.2534, NDCG@15: 0.1437
+Precision@20: 0.0246, Recall@20: 0.3024, NDCG@20: 0.1567
+EarlyStopping counter: 41 out of 50
+
+Epoch: 180, Loss: 2.3862
+Precision@5:  0.0444, Recall@5:  0.1462, NDCG@5:  0.1089
+Precision@10: 0.0338, Recall@10: 0.2113, NDCG@10: 0.1316
+Precision@15: 0.0272, Recall@15: 0.2538, NDCG@15: 0.1438
+Precision@20: 0.0247, Recall@20: 0.3032, NDCG@20: 0.1568
+EarlyStopping counter: 42 out of 50
+
+Epoch: 181, Loss: 2.3840
+Precision@5:  0.0441, Recall@5:  0.1456, NDCG@5:  0.1072
+Precision@10: 0.0336, Recall@10: 0.2102, NDCG@10: 0.1299
+Precision@15: 0.0274, Recall@15: 0.2540, NDCG@15: 0.1426
+Precision@20: 0.0245, Recall@20: 0.3039, NDCG@20: 0.1555
+EarlyStopping counter: 43 out of 50
+
+Epoch: 182, Loss: 2.3551
+Precision@5:  0.0450, Recall@5:  0.1467, NDCG@5:  0.1082
+Precision@10: 0.0335, Recall@10: 0.2095, NDCG@10: 0.1299
+Precision@15: 0.0275, Recall@15: 0.2556, NDCG@15: 0.1432
+Precision@20: 0.0245, Recall@20: 0.3017, NDCG@20: 0.1553
+EarlyStopping counter: 44 out of 50
+
+Epoch: 183, Loss: 2.3564
+Precision@5:  0.0454, Recall@5:  0.1484, NDCG@5:  0.1099
+Precision@10: 0.0335, Recall@10: 0.2093, NDCG@10: 0.1309
+Precision@15: 0.0273, Recall@15: 0.2531, NDCG@15: 0.1436
+Precision@20: 0.0246, Recall@20: 0.3026, NDCG@20: 0.1566
+EarlyStopping counter: 45 out of 50
+
+Epoch: 184, Loss: 2.3764
+Precision@5:  0.0446, Recall@5:  0.1460, NDCG@5:  0.1080
+Precision@10: 0.0337, Recall@10: 0.2112, NDCG@10: 0.1306
+Precision@15: 0.0273, Recall@15: 0.2521, NDCG@15: 0.1425
+Precision@20: 0.0247, Recall@20: 0.3046, NDCG@20: 0.1562
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 185, Loss: 2.3547
+Precision@5:  0.0452, Recall@5:  0.1470, NDCG@5:  0.1095
+Precision@10: 0.0337, Recall@10: 0.2093, NDCG@10: 0.1312
+Precision@15: 0.0275, Recall@15: 0.2526, NDCG@15: 0.1437
+Precision@20: 0.0247, Recall@20: 0.3030, NDCG@20: 0.1568
+EarlyStopping counter: 1 out of 50
+
+Epoch: 186, Loss: 2.3353
+Precision@5:  0.0443, Recall@5:  0.1451, NDCG@5:  0.1080
+Precision@10: 0.0335, Recall@10: 0.2092, NDCG@10: 0.1305
+Precision@15: 0.0273, Recall@15: 0.2516, NDCG@15: 0.1429
+Precision@20: 0.0248, Recall@20: 0.3054, NDCG@20: 0.1569
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 187, Loss: 2.3459
+Precision@5:  0.0448, Recall@5:  0.1470, NDCG@5:  0.1100
+Precision@10: 0.0337, Recall@10: 0.2097, NDCG@10: 0.1319
+Precision@15: 0.0272, Recall@15: 0.2499, NDCG@15: 0.1437
+Precision@20: 0.0247, Recall@20: 0.3053, NDCG@20: 0.1579
+EarlyStopping counter: 1 out of 50
+
+Epoch: 188, Loss: 2.3289
+Precision@5:  0.0452, Recall@5:  0.1467, NDCG@5:  0.1094
+Precision@10: 0.0335, Recall@10: 0.2093, NDCG@10: 0.1311
+Precision@15: 0.0271, Recall@15: 0.2489, NDCG@15: 0.1428
+Precision@20: 0.0248, Recall@20: 0.3045, NDCG@20: 0.1572
+EarlyStopping counter: 2 out of 50
+
+Epoch: 189, Loss: 2.3137
+Precision@5:  0.0452, Recall@5:  0.1467, NDCG@5:  0.1092
+Precision@10: 0.0336, Recall@10: 0.2107, NDCG@10: 0.1312
+Precision@15: 0.0271, Recall@15: 0.2485, NDCG@15: 0.1425
+Precision@20: 0.0249, Recall@20: 0.3063, NDCG@20: 0.1573
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 190, Loss: 2.3055
+Precision@5:  0.0454, Recall@5:  0.1478, NDCG@5:  0.1096
+Precision@10: 0.0334, Recall@10: 0.2088, NDCG@10: 0.1307
+Precision@15: 0.0273, Recall@15: 0.2500, NDCG@15: 0.1430
+Precision@20: 0.0250, Recall@20: 0.3080, NDCG@20: 0.1579
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 191, Loss: 2.3012
+Precision@5:  0.0454, Recall@5:  0.1481, NDCG@5:  0.1106
+Precision@10: 0.0338, Recall@10: 0.2113, NDCG@10: 0.1324
+Precision@15: 0.0275, Recall@15: 0.2507, NDCG@15: 0.1442
+Precision@20: 0.0250, Recall@20: 0.3092, NDCG@20: 0.1591
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 192, Loss: 2.2905
+Precision@5:  0.0458, Recall@5:  0.1488, NDCG@5:  0.1111
+Precision@10: 0.0338, Recall@10: 0.2125, NDCG@10: 0.1328
+Precision@15: 0.0276, Recall@15: 0.2525, NDCG@15: 0.1448
+Precision@20: 0.0250, Recall@20: 0.3075, NDCG@20: 0.1589
+EarlyStopping counter: 1 out of 50
+
+Epoch: 193, Loss: 2.3019
+Precision@5:  0.0452, Recall@5:  0.1482, NDCG@5:  0.1092
+Precision@10: 0.0336, Recall@10: 0.2104, NDCG@10: 0.1308
+Precision@15: 0.0273, Recall@15: 0.2501, NDCG@15: 0.1426
+Precision@20: 0.0249, Recall@20: 0.3064, NDCG@20: 0.1571
+EarlyStopping counter: 2 out of 50
+
+Epoch: 194, Loss: 2.2984
+Precision@5:  0.0460, Recall@5:  0.1513, NDCG@5:  0.1107
+Precision@10: 0.0336, Recall@10: 0.2104, NDCG@10: 0.1311
+Precision@15: 0.0273, Recall@15: 0.2496, NDCG@15: 0.1428
+Precision@20: 0.0251, Recall@20: 0.3072, NDCG@20: 0.1577
+EarlyStopping counter: 3 out of 50
+
+Epoch: 195, Loss: 2.2888
+Precision@5:  0.0458, Recall@5:  0.1501, NDCG@5:  0.1105
+Precision@10: 0.0336, Recall@10: 0.2096, NDCG@10: 0.1312
+Precision@15: 0.0276, Recall@15: 0.2519, NDCG@15: 0.1438
+Precision@20: 0.0252, Recall@20: 0.3094, NDCG@20: 0.1585
+Save: result/Amazon_Digital_Music/nothing.pt
+
+Epoch: 196, Loss: 2.2677
+Precision@5:  0.0460, Recall@5:  0.1503, NDCG@5:  0.1102
+Precision@10: 0.0335, Recall@10: 0.2094, NDCG@10: 0.1306
+Precision@15: 0.0278, Recall@15: 0.2554, NDCG@15: 0.1441
+Precision@20: 0.0252, Recall@20: 0.3085, NDCG@20: 0.1578
+EarlyStopping counter: 1 out of 50
+
+Epoch: 197, Loss: 2.2876
+Precision@5:  0.0458, Recall@5:  0.1508, NDCG@5:  0.1107
+Precision@10: 0.0332, Recall@10: 0.2094, NDCG@10: 0.1310
+Precision@15: 0.0278, Recall@15: 0.2541, NDCG@15: 0.1444
+Precision@20: 0.0250, Recall@20: 0.3067, NDCG@20: 0.1579
+EarlyStopping counter: 2 out of 50
+
+Epoch: 198, Loss: 2.2581
+Precision@5:  0.0456, Recall@5:  0.1502, NDCG@5:  0.1099
+Precision@10: 0.0333, Recall@10: 0.2098, NDCG@10: 0.1306
+Precision@15: 0.0276, Recall@15: 0.2523, NDCG@15: 0.1434
+Precision@20: 0.0250, Recall@20: 0.3071, NDCG@20: 0.1574
+EarlyStopping counter: 3 out of 50
+
+Epoch: 199, Loss: 2.2526
+Precision@5:  0.0452, Recall@5:  0.1478, NDCG@5:  0.1093
+Precision@10: 0.0336, Recall@10: 0.2114, NDCG@10: 0.1312
+Precision@15: 0.0276, Recall@15: 0.2521, NDCG@15: 0.1433
+Precision@20: 0.0251, Recall@20: 0.3074, NDCG@20: 0.1576
+EarlyStopping counter: 4 out of 50
+
+Epoch: 200, Loss: 2.2706
+Precision@5:  0.0456, Recall@5:  0.1492, NDCG@5:  0.1104
+Precision@10: 0.0335, Recall@10: 0.2107, NDCG@10: 0.1314
+Precision@15: 0.0278, Recall@15: 0.2539, NDCG@15: 0.1444
+Precision@20: 0.0250, Recall@20: 0.3041, NDCG@20: 0.1574
+EarlyStopping counter: 5 out of 50
+
+Epoch: 201, Loss: 2.2514
+Precision@5:  0.0456, Recall@5:  0.1482, NDCG@5:  0.1103
+Precision@10: 0.0337, Recall@10: 0.2102, NDCG@10: 0.1317
+Precision@15: 0.0279, Recall@15: 0.2549, NDCG@15: 0.1449
+Precision@20: 0.0249, Recall@20: 0.3036, NDCG@20: 0.1575
+EarlyStopping counter: 6 out of 50
+
+Epoch: 202, Loss: 2.2423
+Precision@5:  0.0456, Recall@5:  0.1479, NDCG@5:  0.1103
+Precision@10: 0.0336, Recall@10: 0.2094, NDCG@10: 0.1316
+Precision@15: 0.0280, Recall@15: 0.2524, NDCG@15: 0.1446
+Precision@20: 0.0250, Recall@20: 0.3033, NDCG@20: 0.1576
+EarlyStopping counter: 7 out of 50
+
+Epoch: 203, Loss: 2.2489
+Precision@5:  0.0452, Recall@5:  0.1485, NDCG@5:  0.1104
+Precision@10: 0.0339, Recall@10: 0.2117, NDCG@10: 0.1324
+Precision@15: 0.0279, Recall@15: 0.2545, NDCG@15: 0.1451
+Precision@20: 0.0251, Recall@20: 0.3041, NDCG@20: 0.1580
+EarlyStopping counter: 8 out of 50
+
+Epoch: 204, Loss: 2.2322
+Precision@5:  0.0446, Recall@5:  0.1466, NDCG@5:  0.1087
+Precision@10: 0.0338, Recall@10: 0.2115, NDCG@10: 0.1315
+Precision@15: 0.0277, Recall@15: 0.2521, NDCG@15: 0.1436
+Precision@20: 0.0248, Recall@20: 0.3015, NDCG@20: 0.1564
+EarlyStopping counter: 9 out of 50
+
+Epoch: 205, Loss: 2.2316
+Precision@5:  0.0450, Recall@5:  0.1483, NDCG@5:  0.1098
+Precision@10: 0.0336, Recall@10: 0.2109, NDCG@10: 0.1316
+Precision@15: 0.0277, Recall@15: 0.2538, NDCG@15: 0.1444
+Precision@20: 0.0249, Recall@20: 0.3035, NDCG@20: 0.1574
+EarlyStopping counter: 10 out of 50
+
+Epoch: 206, Loss: 2.2341
+Precision@5:  0.0448, Recall@5:  0.1466, NDCG@5:  0.1089
+Precision@10: 0.0335, Recall@10: 0.2107, NDCG@10: 0.1312
+Precision@15: 0.0277, Recall@15: 0.2535, NDCG@15: 0.1441
+Precision@20: 0.0249, Recall@20: 0.3017, NDCG@20: 0.1567
+EarlyStopping counter: 11 out of 50
+
+Epoch: 207, Loss: 2.2211
+Precision@5:  0.0458, Recall@5:  0.1500, NDCG@5:  0.1104
+Precision@10: 0.0338, Recall@10: 0.2115, NDCG@10: 0.1318
+Precision@15: 0.0278, Recall@15: 0.2537, NDCG@15: 0.1444
+Precision@20: 0.0249, Recall@20: 0.2998, NDCG@20: 0.1566
+EarlyStopping counter: 12 out of 50
+
+Epoch: 208, Loss: 2.2117
+Precision@5:  0.0454, Recall@5:  0.1486, NDCG@5:  0.1105
+Precision@10: 0.0339, Recall@10: 0.2117, NDCG@10: 0.1325
+Precision@15: 0.0277, Recall@15: 0.2505, NDCG@15: 0.1442
+Precision@20: 0.0248, Recall@20: 0.2987, NDCG@20: 0.1569
+EarlyStopping counter: 13 out of 50
+
+Epoch: 209, Loss: 2.2049
+Precision@5:  0.0458, Recall@5:  0.1498, NDCG@5:  0.1114
+Precision@10: 0.0339, Recall@10: 0.2109, NDCG@10: 0.1327
+Precision@15: 0.0278, Recall@15: 0.2514, NDCG@15: 0.1449
+Precision@20: 0.0246, Recall@20: 0.2976, NDCG@20: 0.1570
+EarlyStopping counter: 14 out of 50
+
+Epoch: 210, Loss: 2.2051
+Precision@5:  0.0460, Recall@5:  0.1507, NDCG@5:  0.1120
+Precision@10: 0.0341, Recall@10: 0.2123, NDCG@10: 0.1333
+Precision@15: 0.0280, Recall@15: 0.2530, NDCG@15: 0.1455
+Precision@20: 0.0248, Recall@20: 0.2987, NDCG@20: 0.1574
+EarlyStopping counter: 15 out of 50
+
+Epoch: 211, Loss: 2.1951
+Precision@5:  0.0454, Recall@5:  0.1499, NDCG@5:  0.1112
+Precision@10: 0.0339, Recall@10: 0.2117, NDCG@10: 0.1329
+Precision@15: 0.0280, Recall@15: 0.2534, NDCG@15: 0.1455
+Precision@20: 0.0247, Recall@20: 0.2991, NDCG@20: 0.1574
+EarlyStopping counter: 16 out of 50
+
+Epoch: 212, Loss: 2.1871
+Precision@5:  0.0454, Recall@5:  0.1494, NDCG@5:  0.1106
+Precision@10: 0.0338, Recall@10: 0.2109, NDCG@10: 0.1322
+Precision@15: 0.0281, Recall@15: 0.2539, NDCG@15: 0.1451
+Precision@20: 0.0248, Recall@20: 0.3011, NDCG@20: 0.1573
+EarlyStopping counter: 17 out of 50
+
+Epoch: 213, Loss: 2.1958
+Precision@5:  0.0450, Recall@5:  0.1498, NDCG@5:  0.1104
+Precision@10: 0.0343, Recall@10: 0.2138, NDCG@10: 0.1328
+Precision@15: 0.0280, Recall@15: 0.2538, NDCG@15: 0.1448
+Precision@20: 0.0250, Recall@20: 0.3022, NDCG@20: 0.1574
+EarlyStopping counter: 18 out of 50
+
+Epoch: 214, Loss: 2.1914
+Precision@5:  0.0450, Recall@5:  0.1491, NDCG@5:  0.1104
+Precision@10: 0.0342, Recall@10: 0.2131, NDCG@10: 0.1328
+Precision@15: 0.0281, Recall@15: 0.2547, NDCG@15: 0.1452
+Precision@20: 0.0249, Recall@20: 0.3025, NDCG@20: 0.1576
+EarlyStopping counter: 19 out of 50
+
+Epoch: 215, Loss: 2.1872
+Precision@5:  0.0452, Recall@5:  0.1505, NDCG@5:  0.1105
+Precision@10: 0.0338, Recall@10: 0.2118, NDCG@10: 0.1319
+Precision@15: 0.0280, Recall@15: 0.2534, NDCG@15: 0.1445
+Precision@20: 0.0250, Recall@20: 0.3015, NDCG@20: 0.1569
+EarlyStopping counter: 20 out of 50
+
+Epoch: 216, Loss: 2.1542
+Precision@5:  0.0460, Recall@5:  0.1520, NDCG@5:  0.1121
+Precision@10: 0.0334, Recall@10: 0.2093, NDCG@10: 0.1320
+Precision@15: 0.0281, Recall@15: 0.2549, NDCG@15: 0.1457
+Precision@20: 0.0251, Recall@20: 0.3039, NDCG@20: 0.1584
+EarlyStopping counter: 21 out of 50
+
+Epoch: 217, Loss: 2.1709
+Precision@5:  0.0454, Recall@5:  0.1500, NDCG@5:  0.1111
+Precision@10: 0.0337, Recall@10: 0.2110, NDCG@10: 0.1323
+Precision@15: 0.0279, Recall@15: 0.2546, NDCG@15: 0.1453
+Precision@20: 0.0250, Recall@20: 0.3007, NDCG@20: 0.1574
+EarlyStopping counter: 22 out of 50
+
+Epoch: 218, Loss: 2.1522
+Precision@5:  0.0454, Recall@5:  0.1507, NDCG@5:  0.1112
+Precision@10: 0.0338, Recall@10: 0.2113, NDCG@10: 0.1323
+Precision@15: 0.0277, Recall@15: 0.2527, NDCG@15: 0.1447
+Precision@20: 0.0248, Recall@20: 0.2990, NDCG@20: 0.1569
+EarlyStopping counter: 23 out of 50
+
+Epoch: 219, Loss: 2.1666
+Precision@5:  0.0458, Recall@5:  0.1506, NDCG@5:  0.1114
+Precision@10: 0.0337, Recall@10: 0.2107, NDCG@10: 0.1322
+Precision@15: 0.0276, Recall@15: 0.2517, NDCG@15: 0.1444
+Precision@20: 0.0249, Recall@20: 0.3008, NDCG@20: 0.1574
+EarlyStopping counter: 24 out of 50
+
+Epoch: 220, Loss: 2.1381
+Precision@5:  0.0456, Recall@5:  0.1506, NDCG@5:  0.1107
+Precision@10: 0.0333, Recall@10: 0.2094, NDCG@10: 0.1312
+Precision@15: 0.0278, Recall@15: 0.2514, NDCG@15: 0.1440
+Precision@20: 0.0249, Recall@20: 0.3003, NDCG@20: 0.1567
+EarlyStopping counter: 25 out of 50
+
+Epoch: 221, Loss: 2.1471
+Precision@5:  0.0454, Recall@5:  0.1503, NDCG@5:  0.1110
+Precision@10: 0.0335, Recall@10: 0.2101, NDCG@10: 0.1319
+Precision@15: 0.0278, Recall@15: 0.2520, NDCG@15: 0.1445
+Precision@20: 0.0249, Recall@20: 0.3003, NDCG@20: 0.1572
+EarlyStopping counter: 26 out of 50
+
+Epoch: 222, Loss: 2.1417
+Precision@5:  0.0456, Recall@5:  0.1498, NDCG@5:  0.1112
+Precision@10: 0.0338, Recall@10: 0.2125, NDCG@10: 0.1329
+Precision@15: 0.0280, Recall@15: 0.2533, NDCG@15: 0.1452
+Precision@20: 0.0248, Recall@20: 0.3005, NDCG@20: 0.1575
+EarlyStopping counter: 27 out of 50
+
+Epoch: 223, Loss: 2.1497
+Precision@5:  0.0458, Recall@5:  0.1508, NDCG@5:  0.1108
+Precision@10: 0.0334, Recall@10: 0.2112, NDCG@10: 0.1316
+Precision@15: 0.0280, Recall@15: 0.2541, NDCG@15: 0.1446
+Precision@20: 0.0248, Recall@20: 0.2993, NDCG@20: 0.1565
+EarlyStopping counter: 28 out of 50
+
+Epoch: 224, Loss: 2.1450
+Precision@5:  0.0454, Recall@5:  0.1494, NDCG@5:  0.1104
+Precision@10: 0.0335, Recall@10: 0.2115, NDCG@10: 0.1318
+Precision@15: 0.0280, Recall@15: 0.2523, NDCG@15: 0.1443
+Precision@20: 0.0248, Recall@20: 0.2992, NDCG@20: 0.1564
+EarlyStopping counter: 29 out of 50
+
+Epoch: 225, Loss: 2.1319
+Precision@5:  0.0443, Recall@5:  0.1461, NDCG@5:  0.1090
+Precision@10: 0.0335, Recall@10: 0.2127, NDCG@10: 0.1320
+Precision@15: 0.0275, Recall@15: 0.2499, NDCG@15: 0.1434
+Precision@20: 0.0247, Recall@20: 0.2965, NDCG@20: 0.1558
+EarlyStopping counter: 30 out of 50
+
+Epoch: 226, Loss: 2.1214
+Precision@5:  0.0446, Recall@5:  0.1479, NDCG@5:  0.1099
+Precision@10: 0.0335, Recall@10: 0.2130, NDCG@10: 0.1324
+Precision@15: 0.0276, Recall@15: 0.2512, NDCG@15: 0.1441
+Precision@20: 0.0247, Recall@20: 0.2999, NDCG@20: 0.1568
+EarlyStopping counter: 31 out of 50
+
+Epoch: 227, Loss: 2.1226
+Precision@5:  0.0443, Recall@5:  0.1479, NDCG@5:  0.1103
+Precision@10: 0.0334, Recall@10: 0.2108, NDCG@10: 0.1324
+Precision@15: 0.0277, Recall@15: 0.2508, NDCG@15: 0.1446
+Precision@20: 0.0247, Recall@20: 0.3010, NDCG@20: 0.1576
+EarlyStopping counter: 32 out of 50
+
+Epoch: 228, Loss: 2.1059
+Precision@5:  0.0446, Recall@5:  0.1487, NDCG@5:  0.1115
+Precision@10: 0.0334, Recall@10: 0.2099, NDCG@10: 0.1330
+Precision@15: 0.0277, Recall@15: 0.2527, NDCG@15: 0.1459
+Precision@20: 0.0245, Recall@20: 0.2984, NDCG@20: 0.1578
+EarlyStopping counter: 33 out of 50
+
+Epoch: 229, Loss: 2.1311
+Precision@5:  0.0444, Recall@5:  0.1485, NDCG@5:  0.1105
+Precision@10: 0.0334, Recall@10: 0.2100, NDCG@10: 0.1322
+Precision@15: 0.0278, Recall@15: 0.2537, NDCG@15: 0.1453
+Precision@20: 0.0245, Recall@20: 0.2983, NDCG@20: 0.1570
+EarlyStopping counter: 34 out of 50
+
+Epoch: 230, Loss: 2.1039
+Precision@5:  0.0443, Recall@5:  0.1488, NDCG@5:  0.1103
+Precision@10: 0.0342, Recall@10: 0.2157, NDCG@10: 0.1338
+Precision@15: 0.0277, Recall@15: 0.2529, NDCG@15: 0.1450
+Precision@20: 0.0246, Recall@20: 0.2988, NDCG@20: 0.1571
+EarlyStopping counter: 35 out of 50
+
+Epoch: 231, Loss: 2.1010
+Precision@5:  0.0441, Recall@5:  0.1478, NDCG@5:  0.1101
+Precision@10: 0.0341, Recall@10: 0.2156, NDCG@10: 0.1339
+Precision@15: 0.0278, Recall@15: 0.2534, NDCG@15: 0.1453
+Precision@20: 0.0246, Recall@20: 0.2986, NDCG@20: 0.1572
+EarlyStopping counter: 36 out of 50
+
+Epoch: 232, Loss: 2.0994
+Precision@5:  0.0443, Recall@5:  0.1473, NDCG@5:  0.1095
+Precision@10: 0.0337, Recall@10: 0.2156, NDCG@10: 0.1331
+Precision@15: 0.0278, Recall@15: 0.2529, NDCG@15: 0.1446
+Precision@20: 0.0244, Recall@20: 0.2965, NDCG@20: 0.1560
+EarlyStopping counter: 37 out of 50
+
+Epoch: 233, Loss: 2.1005
+Precision@5:  0.0437, Recall@5:  0.1454, NDCG@5:  0.1084
+Precision@10: 0.0336, Recall@10: 0.2131, NDCG@10: 0.1321
+Precision@15: 0.0278, Recall@15: 0.2528, NDCG@15: 0.1443
+Precision@20: 0.0246, Recall@20: 0.2967, NDCG@20: 0.1559
+EarlyStopping counter: 38 out of 50
+
+Epoch: 234, Loss: 2.0787
+Precision@5:  0.0446, Recall@5:  0.1492, NDCG@5:  0.1099
+Precision@10: 0.0338, Recall@10: 0.2122, NDCG@10: 0.1320
+Precision@15: 0.0279, Recall@15: 0.2542, NDCG@15: 0.1447
+Precision@20: 0.0244, Recall@20: 0.2970, NDCG@20: 0.1558
+EarlyStopping counter: 39 out of 50
+
+Epoch: 235, Loss: 2.0859
+Precision@5:  0.0452, Recall@5:  0.1513, NDCG@5:  0.1105
+Precision@10: 0.0334, Recall@10: 0.2124, NDCG@10: 0.1317
+Precision@15: 0.0279, Recall@15: 0.2560, NDCG@15: 0.1449
+Precision@20: 0.0245, Recall@20: 0.2969, NDCG@20: 0.1557
+EarlyStopping counter: 40 out of 50
+
+Epoch: 236, Loss: 2.0727
+Precision@5:  0.0439, Recall@5:  0.1474, NDCG@5:  0.1093
+Precision@10: 0.0334, Recall@10: 0.2116, NDCG@10: 0.1319
+Precision@15: 0.0279, Recall@15: 0.2579, NDCG@15: 0.1456
+Precision@20: 0.0244, Recall@20: 0.2963, NDCG@20: 0.1559
+EarlyStopping counter: 41 out of 50
+
+Epoch: 237, Loss: 2.0618
+Precision@5:  0.0441, Recall@5:  0.1463, NDCG@5:  0.1095
+Precision@10: 0.0337, Recall@10: 0.2120, NDCG@10: 0.1325
+Precision@15: 0.0279, Recall@15: 0.2569, NDCG@15: 0.1458
+Precision@20: 0.0245, Recall@20: 0.2957, NDCG@20: 0.1562
+EarlyStopping counter: 42 out of 50
+
+Epoch: 238, Loss: 2.0592
+Precision@5:  0.0450, Recall@5:  0.1481, NDCG@5:  0.1102
+Precision@10: 0.0335, Recall@10: 0.2123, NDCG@10: 0.1323
+Precision@15: 0.0279, Recall@15: 0.2567, NDCG@15: 0.1455
+Precision@20: 0.0245, Recall@20: 0.2957, NDCG@20: 0.1560
+EarlyStopping counter: 43 out of 50
+
+Epoch: 239, Loss: 2.0585
+Precision@5:  0.0444, Recall@5:  0.1455, NDCG@5:  0.1090
+Precision@10: 0.0332, Recall@10: 0.2089, NDCG@10: 0.1311
+Precision@15: 0.0278, Recall@15: 0.2549, NDCG@15: 0.1448
+Precision@20: 0.0244, Recall@20: 0.2959, NDCG@20: 0.1557
+EarlyStopping counter: 44 out of 50
+
+Epoch: 240, Loss: 2.0700
+Precision@5:  0.0446, Recall@5:  0.1473, NDCG@5:  0.1101
+Precision@10: 0.0336, Recall@10: 0.2128, NDCG@10: 0.1327
+Precision@15: 0.0279, Recall@15: 0.2552, NDCG@15: 0.1454
+Precision@20: 0.0245, Recall@20: 0.2966, NDCG@20: 0.1564
+EarlyStopping counter: 45 out of 50
+
+Epoch: 241, Loss: 2.0462
+Precision@5:  0.0441, Recall@5:  0.1459, NDCG@5:  0.1081
+Precision@10: 0.0334, Recall@10: 0.2111, NDCG@10: 0.1309
+Precision@15: 0.0281, Recall@15: 0.2567, NDCG@15: 0.1446
+Precision@20: 0.0247, Recall@20: 0.2997, NDCG@20: 0.1559
+EarlyStopping counter: 46 out of 50
+
+Epoch: 242, Loss: 2.0488
+Precision@5:  0.0444, Recall@5:  0.1491, NDCG@5:  0.1101
+Precision@10: 0.0339, Recall@10: 0.2127, NDCG@10: 0.1325
+Precision@15: 0.0281, Recall@15: 0.2580, NDCG@15: 0.1459
+Precision@20: 0.0247, Recall@20: 0.2978, NDCG@20: 0.1565
+EarlyStopping counter: 47 out of 50
+
+Epoch: 243, Loss: 2.0688
+Precision@5:  0.0450, Recall@5:  0.1506, NDCG@5:  0.1107
+Precision@10: 0.0336, Recall@10: 0.2118, NDCG@10: 0.1321
+Precision@15: 0.0280, Recall@15: 0.2580, NDCG@15: 0.1457
+Precision@20: 0.0243, Recall@20: 0.2945, NDCG@20: 0.1555
+EarlyStopping counter: 48 out of 50
+
+Epoch: 244, Loss: 2.0366
+Precision@5:  0.0452, Recall@5:  0.1506, NDCG@5:  0.1111
+Precision@10: 0.0334, Recall@10: 0.2091, NDCG@10: 0.1317
+Precision@15: 0.0280, Recall@15: 0.2577, NDCG@15: 0.1459
+Precision@20: 0.0244, Recall@20: 0.2940, NDCG@20: 0.1557
+EarlyStopping counter: 49 out of 50
+
+Epoch: 245, Loss: 2.0380
+Precision@5:  0.0452, Recall@5:  0.1492, NDCG@5:  0.1099
+Precision@10: 0.0335, Recall@10: 0.2117, NDCG@10: 0.1315
+Precision@15: 0.0277, Recall@15: 0.2556, NDCG@15: 0.1445
+Precision@20: 0.0246, Recall@20: 0.2956, NDCG@20: 0.1554
+EarlyStopping counter: 50 out of 50
+
+Early stopping at epoch 195. Best Validation Results:
+Precision@5:  0.0458, Recall@5:  0.1501, NDCG@5:  0.1105
+Precision@10: 0.0336, Recall@10: 0.2096, NDCG@10: 0.1312
+Precision@15: 0.0276, Recall@15: 0.2519, NDCG@15: 0.1438
+Precision@20: 0.0252, Recall@20: 0.3094, NDCG@20: 0.1585
+
+Training completed in 186.43037605285645 seconds.
+
+#############################################################################
+Final Test Results
+Precision@5:  0.0619, Recall@5:  0.1910, NDCG@5:  0.1501
+Precision@10: 0.0464, Recall@10: 0.2741, NDCG@10: 0.1778
+Precision@15: 0.0378, Recall@15: 0.3287, NDCG@15: 0.1938
+Precision@20: 0.0321, Recall@20: 0.3673, NDCG@20: 0.2041
+#############################################################################
