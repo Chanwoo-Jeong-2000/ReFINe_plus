@@ -1,4 +1,4 @@
-# [Under Review] Modeling of Negative Feedback Refined via LLM in Recommendation Systems
+# [Under Review] Modeling of Negative Feedback Refined via LLM in Recommender Systems
 
 # Requirements
 python 3.9.20, cuda 11.8, and the following installations:
