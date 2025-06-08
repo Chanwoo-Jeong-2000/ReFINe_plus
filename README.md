@@ -35,15 +35,14 @@ python main.py --dataset Amazon_Books --layers 2
 ```
 
 # Settings
-We adopt the same experimental configuration as in ReFINe.
+We adopt the same experimental configuration as in [ReFINe](https://github.com/Chanwoo-Jeong-2000).
 The model is built using PyTorch Geometric with a 64-dimensional embedding size and a batch size of 1024.
 A 4-layer GCN is used for all datasets, except for Amazon-Book, where a 2-layer GCN is used LightGCN.
 The learning rate is set to 1e-3, and training is performed for up to 1000 epochs with early stopping, which is applied if Recall@20 on the validation set does not improve for 50 consecutive epochs.
-Following ReFINe, the sampling weight $\gamma$ for confirmed negative feedback is fixed at 1.5.
-The regularization coefficient $\lambda_1$ for the $\mathcal{L}_{\text{RW\_SSM}}$ term is set to 1e-7, and $\lambda_2$ for the $\mathcal{L}_{\text{AE}}$ term is set to 1e-5.
-The autoencoder for capturing dispreference has one hidden layer and follows the architecture [$|\mathcal{I}|$ → 600 → 64 → 600 → $|\mathcal{I}|$].
+Following ReFINe, the sampling weight γ for confirmed negative feedback is fixed at 1.5.
+The regularization coefficient λ₁ for the L_{RW_SSM} term is set to 1e-7, and λ₂ for the L_{AE} term is set to 1e-5.
+The autoencoder for capturing dispreference has one hidden layer and follows the architecture [ |I| -> 600 -> 64 -> 600 -> |I|].
 In Re-Weighted SSM, we do not treat the number of negative samples as a tunable hyperparameter.
-%Instead, it is determined based on a fixed ratio—one-tenth of the total number of items—to minimize dependence on arbitrary hyperparameter tuning.
 All experiments are conducted on a single NVIDIA RTX A6000 GPU.
 
 # Compare with our results
