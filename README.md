@@ -35,7 +35,7 @@ python main.py --dataset Amazon_Books --layers 2
 ```
 
 # Settings
-We adopt the same experimental configuration as in [ReFINe](https://github.com/Chanwoo-Jeong-2000).
+We adopt the same experimental configuration as in [ReFINe](https://github.com/Chanwoo-Jeong-2000/ReFINe).
 The model is built using PyTorch Geometric with a 64-dimensional embedding size and a batch size of 1024.
 A 4-layer GCN is used for all datasets, except for Amazon-Book, where a 2-layer GCN is used LightGCN.
 The learning rate is set to 1e-3, and training is performed for up to 1000 epochs with early stopping, which is applied if Recall@20 on the validation set does not improve for 50 consecutive epochs.
