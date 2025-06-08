@@ -41,7 +41,7 @@ A 4-layer GCN is used for all datasets, except for Amazon-Book, where a 2-layer 
 The learning rate is set to 1e-3, and training is performed for up to 1000 epochs with early stopping, which is applied if Recall@20 on the validation set does not improve for 50 consecutive epochs.
 Following ReFINe, the sampling weight γ for confirmed negative feedback is fixed at 1.5.
 The regularization coefficient λ₁ for the L_{RW_SSM} term is set to 1e-7, and λ₂ for the L_{AE} term is set to 1e-5.
-The autoencoder for capturing dispreference has one hidden layer and follows the architecture [ |I| -> 600 -> 64 -> 600 -> |I|].
+The autoencoder for capturing dispreference has one hidden layer and follows the architecture [ |I| -> 600 -> 64 -> 600 -> |I| ].
 In Re-Weighted SSM, we do not treat the number of negative samples as a tunable hyperparameter.
 All experiments are conducted on a single NVIDIA RTX A6000 GPU.
 
