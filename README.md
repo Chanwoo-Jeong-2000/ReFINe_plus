@@ -45,10 +45,31 @@ The autoencoder for capturing dispreference has one hidden layer and follows the
 In Re-Weighted SSM, we do not treat the number of negative samples as a tunable hyperparameter.
 All experiments are conducted on a single NVIDIA RTX A6000 GPU.
 
+# Datasets
+Download **ml-100k.inter** and **ml-100k.item** from [here](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/MovieLens/ml-100k.zip).
+
+Download **ml-1m.inter** and **ml-1m.item** from [here](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/MovieLens/ml-1m.zip).
+
+Download **netflix.inter** from [here](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Netflix/netflix.zip).
+
+Download **movie_titles.csv** from [here](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data?select=movie_titles.csv).
+
+Download **netflix_genres.csv** from [here](https://github.com/tommasocarraro/netflix-prize-with-genres).
+
+Download **Amazon_Digital_Music.inter** and **Amazon_Digital_Music.item** from [here](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Amazon_ratings/Amazon_Digital_Music.zip).
+
+Download **Amazon_Books.inter** and **Amazon_Books.item** from [here](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Amazon_ratings/Amazon_Books.zip).
+
 # Compare with our results
 The **results4comparison** folder contains the results of our experiment.
 Each file includes the loss and performance metrics for every epoch, as well as the hyperparameters, dataset statistics, and training time.
 You can compare our results with your own reproduced results.
+
+# Citation
+If you find ReFINe++ useful for your research or development, please cite the following our papers:
+```
+
+```
 
 # Acknowledgments
 This work was supported by the Institute of Information \& Communications Technology Planning \& Evaluation (IITP) grant funded by the Korea government (MSIT) [RS-2021-II211341, Artificial Intelligence Graduate School Program (Chung-Ang University)], [IITP-2025-RS-2024-00438056, ITRC(Information Technology Research Center) Support Program]. This research was also supported by the Chung-Ang University Research Scholarship Grants in 2023. 
