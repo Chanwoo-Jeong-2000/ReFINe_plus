@@ -72,4 +72,4 @@ If you find ReFINe++ useful for your research or development, please cite the fo
 ```
 
 # Acknowledgments
-This work was supported by the Institute of Information \& Communications Technology Planning \& Evaluation (IITP) grant funded by the Korea government (MSIT) [RS-2021-II211341, Artificial Intelligence Graduate School Program (Chung-Ang University)], [IITP-2025-RS-2024-00438056, ITRC(Information Technology Research Center) Support Program]. This research was supported by the Chung-Ang University Research Scholarship Grants in 2023. 
+This work was supported by the Institute of Information \& Communications Technology Planning \& Evaluation (IITP) grant funded by the Korea government (MSIT) [RS-2021-II211341, Artificial Intelligence Graduate School Program (Chung-Ang University)], [IITP-2025-RS-2024-00438056, ITRC(Information Technology Research Center) Support Program]. This research was also supported by the Chung-Ang University Research Scholarship Grants in 2023. 
