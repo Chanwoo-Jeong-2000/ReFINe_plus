@@ -1,8 +1,8 @@
 # [IEEE Access] Modeling of Negative Feedback Refined via LLM in Recommender Systems
 [![View Paper](https://img.shields.io/badge/View%20Paper-PDF-red?logo=adobeacrobatreader)](https://ieeexplore.ieee.org/document/11126013)
 
-This study presents the **ReFINe++** model, an extension of the **ReFINe** framework designed to address negative feedback in recommender systems.
-[This paper](https://ieeexplore.ieee.org/document/11126013) has been accepted for publication in [IEEE Access](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639)
+This study presents the **ReFINe++** model, an extension of the **ReFINe** framework designed to address negative feedback in recommender systems.  
+[This paper](https://ieeexplore.ieee.org/document/11126013) has been accepted for publication in [IEEE Access](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639)  
 The previous work, **ReFINe**, with its corresponding [paper](https://ieeexplore.ieee.org/document/11126013) and [code](https://github.com/Chanwoo-Jeong-2000/ReFINe_plus), is publicly available.
 
 # Requirements
