@@ -1,4 +1,5 @@
 # [IEEE Access] Modeling of Negative Feedback Refined via LLM in Recommender Systems
+[![View Paper](https://img.shields.io/badge/View%20Paper-PDF-red?logo=adobeacrobatreader)](https://ieeexplore.ieee.org/document/11126013)
 
 # Requirements
 python 3.9.20, cuda 11.8, and the following installations:
