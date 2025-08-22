@@ -73,7 +73,13 @@ You can compare our results with your own reproduced results.
 # Citation
 If you find ReFINe++ useful for your research or development, please cite the following our papers:
 ```
-
+@article{jeong2025modeling,
+  title={Modeling of Negative Feedback Refined via LLM in Recommender Systems},
+  author={Jeong, Chanwoo and Cho, Yoon-Sik},
+  journal={IEEE Access},
+  year={2025},
+  publisher={IEEE}
+}
 ```
 
 # Acknowledgments
