@@ -3,7 +3,7 @@
 
 This study presents the **ReFINe++** model, an extension of the **ReFINe** framework designed to address negative feedback in recommender systems.  
 [This paper](https://ieeexplore.ieee.org/document/11126013) has been accepted for publication in [IEEE Access](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639).  
-The previous work, **ReFINe** model, with its corresponding [paper](https://ieeexplore.ieee.org/document/11126013) and [code](https://github.com/Chanwoo-Jeong-2000/ReFINe_plus), is publicly available.
+The previous work, **ReFINe** model, with its corresponding [paper](https://ieeexplore.ieee.org/document/11126013) and [code](https://github.com/Chanwoo-Jeong-2000/ReFINe_plus), is publicly available.  
 
 ![ReFINe++](https://github.com/user-attachments/assets/1e30de1e-a93c-48bf-ada0-a7a865b0522a)
 
