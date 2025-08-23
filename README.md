@@ -5,7 +5,7 @@ This study presents the **ReFINe++** model, an extension of the **ReFINe** frame
 [This paper](https://ieeexplore.ieee.org/document/11126013) has been accepted for publication in [IEEE Access](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639).  
 The previous work, **ReFINe** model, with its corresponding [paper](https://ieeexplore.ieee.org/document/11126013) and [code](https://github.com/Chanwoo-Jeong-2000/ReFINe_plus), is publicly available.
 
-[ReFINe++.pdf](https://github.com/user-attachments/files/21947845/ReFINe%2B%2B.pdf)
+![Uploading ReFINe++.jpg…]()
 
 # Requirements
 python 3.9.20, cuda 11.8, and the following installations:
